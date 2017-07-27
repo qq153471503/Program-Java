@@ -1,0 +1,39 @@
+class Car{
+	int num;
+	String color;
+	void carRun()
+	{
+		System.out.println("num is :"+num+"\t"+"color is £º "+color);
+	}
+}
+
+class Person{
+	private int age;
+	void speak()
+	{
+		System.out.println("age is : "+age);
+	}
+}
+
+class objectDemo{
+	public static void main(String[] args){
+		
+		Car c1 = new Car();
+		Car c2 = new Car();
+		carBulid(c1, 10, "blue");
+		carBulid(c2, 20, "red");
+		System.out.println("object Demo !");
+		
+		//ÄäÃû¶ÔÏó
+		carBulid(new Car(), 30, "black");
+		carBulid(new Car(), 40, "white");
+		
+	}
+	
+	public static void carBulid(Car car, int num, String color)
+	{
+		car.num = num;
+		car.color = color;
+		System.out.println(car.num+"\t"+car.color);
+	}
+}

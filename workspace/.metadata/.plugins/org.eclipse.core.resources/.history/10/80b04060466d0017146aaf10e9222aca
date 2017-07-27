@@ -1,0 +1,38 @@
+
+public class ObjectClassDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Person p1 = new Person(20);
+		Person p2 = new Person(20);
+		
+		System.out.println(p1.equals(p2));
+	}
+
+}
+
+
+class Person extends Object{
+	
+	private int age;
+	Person(int age){
+		this.age = age;
+		System.out.println("init....Fu...class..."+this.age);
+	}
+	
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	public boolean equals(Object obj) {
+		if(!(obj instanceof Person))
+			return false;
+		Person p = (Person)obj;
+		return this.age == p.age;
+	}
+}
+

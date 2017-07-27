@@ -1,0 +1,128 @@
+
+/**
+ * wait()	:	使线程处于冻结状态，同时释放执行权和执行资格，被wait的线程会被存储到线程池中
+ * notify() :	唤醒线程池中的一个线程（任意）
+ * notifyAll(): 唤醒线程池中多有的线程，使处于阻塞或运行状态，换句话说就是使线程池中的所有线程具备执行资格
+ * */
+
+public class ThreadCommunicationDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Resource r = new Resource();
+		Input in = new Input(r);
+		Ouput ou = new Ouput(r);
+		
+		Thread t1 = new Thread(in);
+		Thread t2 = new Thread(ou);
+		
+		t1.start();
+		t2.start();
+	}
+
+}
+
+
+class Resource{
+	private String name=null;
+	private String sex=null;
+	public boolean flag = false;
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return this.name;
+	}
+	
+	public void setSex(String sex) {
+		this.sex = sex;
+	}
+	
+	public String getSex() {
+		return this.sex;
+	}
+}
+
+
+class Input implements Runnable{
+	
+	Resource r;
+	Input(Resource r) {
+		this.r = r;
+	}
+	public void run() {
+		boolean flag = true;
+		while(true){
+			synchronized(r)
+			{
+				if(this.r.flag){
+					try {
+						this.r.wait();
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+				}//end of if(this.r.flag)
+				
+				if(flag){
+					this.function();
+				}
+				else {
+					this.function2();
+				}
+				flag = !flag;
+				
+				this.r.flag = false;
+				r.notify();
+			}
+		}
+	}
+	
+	private void function() {
+		this.r.setName("aaaaa");
+		this.r.setSex("nan");
+	}
+	
+	private void function2() {
+		this.r.setName("丽丽");
+		this.r.setSex("女");
+	}
+}
+
+class Ouput implements Runnable{
+	
+	Resource r;
+	
+	Ouput(Resource r){
+		this.r = r;
+	}
+	
+	public void run() {
+		
+		while(true){
+			synchronized(r)
+			{
+				if(!this.r.flag){
+					try {
+						this.r.wait();
+					} catch (InterruptedException e) {
+						e.printStackTrace();
+					}
+				}//end of if(this.r.flag)
+				
+				System.out.println(r.getName()+"..."+r.getSex());
+				this.r.flag = true;
+				r.notify();
+			}
+		}// end of while
+	}
+}
+
+class Lock{
+	
+}
+

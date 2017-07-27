@@ -1,0 +1,100 @@
+/**
+ *  用 static 虽然可以实现两个线程的数据共享，但是如果还有另外两个窗口卖票，就不能new Ticket这个对象了
+ *  所以  请看非注释的使用方式
+ *  
+ *  
+ *  第一种：创建一个Thread子对象，内含static 用于数据共享。		缺陷：所有使用该对象的线程，都将共享一个数据。
+ *  	简称：一个thread子类  多线程共享并同步使用
+ *  
+ *  第二种：实现一个Runnable接口的类  创建一个Thread线程并将一个实现自Runnable接口的类给thread
+ *  	简称：一个实现自Runnable接口的类  多个线程同步使用
+ * */
+//public class ThreadDemo3 {
+//
+//	/**
+//	 * @param args
+//	 */
+//	public static void main(String[] args) {
+//		// TODO Auto-generated method stub
+//
+//		Ticket t1 = new Ticket();
+//		Ticket t2 = new Ticket();
+//		t1.start();
+//		t2.start();
+//	}
+//}
+//
+//
+//
+//class Ticket extends Thread{
+//	
+//	private static int num = 20;
+//	
+//	public void setNum(int num){
+//		this.num = num;
+//	}
+//	
+//	public int getNum() {
+//		return this.num;
+//	}
+//	
+//	public void sale() {
+//		System.out.println(this.getName()+"..."+this.num--);
+//	}
+//	
+//	public void run() {
+//		while(true){
+//			if(num > 0)
+//				this.sale();
+//		}
+//	}
+//}
+
+public class ThreadDemo3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Ticket tic = new Ticket();
+		
+		Thread t1 = new Thread(tic);
+		Thread t2 = new Thread(tic);
+		Thread t3 = new Thread(tic);
+		Thread t4 = new Thread(tic);
+		
+		t1.start();
+		t2.start();
+		t3.start();
+		t4.start();
+	}
+}
+
+class Ticket implements Runnable{
+	
+	private int num = 20;
+	
+	public void setNum(int num){
+		this.num = num;
+	}
+	
+	public int getNum() {
+		return this.num;
+	}
+	
+	public void sale() {
+		System.out.println(Thread.currentThread().getName()+"..."+this.num--);
+	}
+	
+	public void run() {
+		while(true){
+			synchronized{
+				if(num > 0)
+					this.sale();
+			}
+		}
+	}
+}
+

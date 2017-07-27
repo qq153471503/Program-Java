@@ -1,0 +1,32 @@
+
+class objectDemo{
+	public static void main(String[] args){
+		
+		Persion per = new Persion(10);
+		Persion per2 = new Persion("LiuAnkun");
+	}
+}
+
+class Persion{
+	private int num;
+	private String name;
+	public void setNum(int x){
+		num = x;
+	}
+	
+	
+	public void speak(){
+		System.out.println("num is :"+num+"\t"+"name is :"+name);
+	}
+	Persion(){
+		System.out.println("Persion run !");
+	}
+	Persion(int x){
+		System.out.println("Persion run !"+"\t"+"x is :"+x);
+	}
+	Persion(String str){
+//		System.out.println("Persion run !"+"\t"+"String is :"+str);
+		this.speak();
+	}
+}
+

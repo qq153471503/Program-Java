@@ -1,0 +1,96 @@
+
+public class ThreadCommunicationDemo2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Resource r = new Resource();
+		Producers pd = new Producers(r);
+		Consumers con = new Consumers(r);
+		
+		Thread t0 = new Thread(con);
+		Thread t1 = new Thread(con);
+		Thread t2 = new Thread(pd);
+		Thread t3 = new Thread(pd);
+		
+		t0.start();
+		t1.start();
+		t2.start();
+		t3.start();
+	}
+
+}
+
+
+class Resource{
+	private String name;
+	private int count=1;
+	private boolean flag = false;
+	
+	public synchronized void set(String name) {
+		if(flag){
+			try {
+				this.wait();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}//end of if(flag)
+		
+		synchronized(Lock.class)
+		{
+			this.name = name + this.count;
+			this.count++;
+		}
+		
+		System.out.println(Thread.currentThread().getName()+"..生产者.."+this.name);
+		this.flag = true;
+		this.notify();
+	}
+	
+	public synchronized void show(){
+		if(!this.flag){
+			try {
+				this.wait();
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		synchronized(Lock.class)
+		{
+			System.out.println(Thread.currentThread().getName()+"........消费者.."+this.name);
+		}
+			this.flag = false;
+			this.notify();
+	}
+}
+
+class Producers implements Runnable{
+	private Resource r;
+	
+	Producers(Resource r){
+		this.r = r;
+	}
+	
+	public void run() {
+		while(true)
+			r.set("烤鸭");
+	}
+}
+
+class Consumers implements Runnable{
+	private Resource r;
+	
+	Consumers(Resource r){
+		this.r = r;
+	}
+	
+	public void run() {
+		while(true)
+			r.show();
+	}
+}
+
+class Lock{}

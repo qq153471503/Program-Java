@@ -1,0 +1,34 @@
+
+/**
+ * 建立一个用于操作数组的类，其中包含对数组的一系列操作，例如排序、照最大值等。
+ * @author 153471503@qq.com
+ * @version v1.0
+ * */
+//该类中的方法都是静态的，所以该类无需创建对象 所以将构造函数私有化，强制不创建对象
+public class ArraryFunction {
+
+	private ArraryFunction () {
+		
+	}
+	/**
+	 * getArrayMax函数功能： 获得数组元素中的最大值，并返回。
+	 * @param arr
+	 * @return 数组中的元素最大值
+	 * */
+	public static int getArrayMax(int[] arr){
+
+		if(arr.length <= 0)
+		{
+			System.out.println("Array Error !");
+			return -1;
+		}
+
+		int max = 0;
+		for(int i=0; i<arr.length; i++)
+		{
+			if(arr[i]>arr[max])
+				max = i;
+		}
+		return arr[max];
+	}
+}

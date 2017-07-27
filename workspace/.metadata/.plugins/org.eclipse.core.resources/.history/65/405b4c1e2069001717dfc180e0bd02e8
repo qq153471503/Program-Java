@@ -1,0 +1,14 @@
+class Car{
+	int num;
+	String color;
+	void carRun()
+	{
+		System.out.println("num is :"+num+"\n"+"color is £º "+color);
+	}
+}
+
+class objectDemo{
+	public static void main(String[] args){
+		System.out.println("object Demo !");
+	}
+}

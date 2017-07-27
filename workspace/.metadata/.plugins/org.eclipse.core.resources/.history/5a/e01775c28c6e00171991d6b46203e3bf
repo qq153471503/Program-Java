@@ -1,0 +1,16 @@
+
+public class PackageDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Package demo !!");
+		
+		mypack1.Demo md = mypack1.Demo();
+	}
+
+}
+

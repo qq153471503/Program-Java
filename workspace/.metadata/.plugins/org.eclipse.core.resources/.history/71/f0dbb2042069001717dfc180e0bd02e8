@@ -1,0 +1,10 @@
+class Car{
+	int num;
+	String color;
+}
+
+class objectDemo{
+	public static void main(String[] args){
+		System.out.println("object Demo !");
+	}
+}

@@ -1,0 +1,8 @@
+import java.util.Scanner;
+
+class areaDemo{
+	public static void main(String[] args){
+		Scanner input = new Scanner(System.in);
+		double r = input.nextDouble();
+	}
+}

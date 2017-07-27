@@ -1,0 +1,23 @@
+class Car{
+	int num;
+	String color;
+	void carRun()
+	{
+		System.out.println("num is :"+num+"\n"+"color is £º "+color);
+	}
+}
+
+class objectDemo{
+	public static void main(String[] args){
+		
+		Car car = new Car();
+		car.num = 5;
+		car.color = "RED";
+		car.carRun();
+		
+		car.color = "liuankun";
+		car.num = 10;
+		car.carRun();
+		System.out.println("object Demo !");
+	}
+}

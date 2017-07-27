@@ -1,0 +1,23 @@
+package mypack2;
+
+public class PackageDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+class Demo{
+	public void show() {
+		System.out.println("mypack2...show...");
+	}
+}
+
+
+

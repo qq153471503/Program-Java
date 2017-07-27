@@ -1,0 +1,10 @@
+public class hello{
+	
+	public static void main(String[] args){
+		
+		byte a = 0;
+		int b = 1;
+		System.out.println("Hello Java \n");
+		System.out.println(a);
+	}
+}

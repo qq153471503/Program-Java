@@ -1,0 +1,30 @@
+public class hello{
+	
+	public static void main(String[] args){
+		
+		
+		int y;
+		int x = 1;
+		
+		y = (x>0)?100:200;
+		
+		System.out.println("y="+y);
+		
+		{
+			int k = 10;
+			System.out.println("x is : "+k);
+		}
+		
+		
+		{
+			int t=0;
+			int tmp=0;
+			while((t++) <= 5)
+			{
+				tmp += t;
+				System.out.println("tmp is : "+tmp);
+			}
+			
+		}
+	}
+}

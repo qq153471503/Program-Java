@@ -1,0 +1,21 @@
+
+class objectDemo{
+	public static void main(String[] args){
+		
+	}
+}
+
+class Persion{
+
+	private int num;
+	public void setNum(int x){
+		
+		num = x;
+	}
+	Persion()
+	{
+		int num;
+		System.out.println("Persion run !");
+	}
+}
+

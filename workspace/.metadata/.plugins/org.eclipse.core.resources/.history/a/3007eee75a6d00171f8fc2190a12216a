@@ -1,0 +1,53 @@
+/**
+ * 该例程为：声明的方式
+ * 自定义异常时 要么继承Exception 要么继承RuntimeException
+ * 两者区别：前者是在编译时抛出异常 在子句上要声明throws 后者无需
+ * 
+ * throw与throws区别： 后者使用在函数上 抛出的是异常类 而且可以抛出多个，前者使用在函数内 抛出的是异常对象 以此只能[引发]一个*/
+public class ExceptionDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) throws NegativeException{
+		// TODO Auto-generated method stub
+
+		int[] arr = new int[3];
+		Demo d = new Demo();
+		d.method(arr, -10);
+	}
+}
+
+
+
+
+//自定义异常类
+class NegativeException extends Exception{
+	 NegativeException() {
+		// TODO Auto-generated constructor stub
+	}
+	 
+	 NegativeException(String msg) {
+		 super(msg);
+	 }
+}
+
+
+//
+class Demo{
+	public void method(int[] arr, int index) throws NegativeException {
+		
+		if(index < 0)
+			throw new NegativeException("数组角标不能为是负数！");
+	}
+}
+
+
+
+
+
+
+
+
+
+

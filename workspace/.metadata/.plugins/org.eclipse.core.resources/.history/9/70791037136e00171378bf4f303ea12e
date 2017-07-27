@@ -1,0 +1,62 @@
+/**
+ * 该例程为：声明的方式
+ * 自定义异常时 要么继承Exception 要么继承RuntimeException
+ * 两者区别：前者是在编译时抛出异常 在子句上要声明throws 后者无需
+ * 
+ * throws是方法可能抛出异常的声明。(用在声明方法时，表示该方法可能要抛出异常)
+ * 语法：[(修饰符)](返回值类型)(方法名)([参数列表])[throws(异常类)]{......}
+            public void doA(int a) throws Exception1,Exception3{......}
+   
+   throw是明确某个地方抛出异常
+   
+ throw语句用在方法体内，表示抛出异常，由方法体内的语句处理。
+throws语句用在方法声明后面，表示再抛出异常，由该方法的调用者来处理。
+
+ * throw与throws区别： 后者使用在函数上 抛出的是异常类 而且可以抛出多个，前者使用在函数内 抛出的是异常对象 以此只能[引发]一个*/
+public class ExceptionDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) throws NegativeException{
+		// TODO Auto-generated method stub
+
+		int[] arr = new int[3];
+		Demo d = new Demo();
+		d.method(arr, -10);
+	}
+}
+
+
+
+
+//自定义异常类
+class NegativeException extends Exception{
+	 NegativeException() {
+		// TODO Auto-generated constructor stub
+	}
+	 
+	 NegativeException(String msg) {
+		 super(msg);
+	 }
+}
+
+
+//
+class Demo{
+	public void method(int[] arr, int index) throws NegativeException {
+		
+		if(index < 0)
+			throw new NegativeException("数组角标不能为是负数！");
+	}
+}
+
+
+
+
+
+
+
+
+
+

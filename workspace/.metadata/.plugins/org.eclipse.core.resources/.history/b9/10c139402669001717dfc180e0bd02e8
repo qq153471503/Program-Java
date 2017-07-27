@@ -1,0 +1,23 @@
+class Car{
+	int num;
+	String color;
+	void carRun()
+	{
+		System.out.println("num is :"+num+"\t"+"color is £º "+color);
+	}
+}
+
+class objectDemo{
+	public static void main(String[] args){
+		
+		Car c1,c2;
+		
+		System.out.println("object Demo !");
+	}
+	
+	public static void carBulid(Car car, int num, String color)
+	{
+		car.num = num;
+		car.color = color;
+	}
+}

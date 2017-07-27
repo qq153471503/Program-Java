@@ -1,0 +1,68 @@
+
+public class Practice {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		Rectangular rect = new Rectangular(-10, 10);
+		System.out.println("arge: "+rect.getArea());
+		
+		Circular cir = new Circular(10);
+		System.out.println("arge: "+cir.getArea());
+	}
+
+}
+
+interface Graphics{
+	abstract public double getArea();
+}
+
+class Circular implements Graphics{
+	
+	private static final double PI = 3.141592;
+	private double r;
+	
+	Circular(double r){
+		if(r <= 0)
+			throw new ValueException("半径不能为负数");
+		this.r = r;
+	}
+	public double getArea(){
+		return this.r*this.r*this.PI;
+	}
+}
+
+class Rectangular implements Graphics{
+	private double x;
+	private double y;
+	Rectangular(double x, double y){
+		if(x<=0 || y<=0 )
+			throw new ValueException("数值非法");
+		this.x = x;
+		this.y = y;
+	}
+	
+	public  double getArea(){
+		return this.x*this.y;
+	}
+}
+
+
+class ValueException extends RuntimeException{
+	ValueException(){
+		super();
+	}
+	ValueException(String msg){
+		super(msg);
+	}
+}
+
+
+
+
+
+

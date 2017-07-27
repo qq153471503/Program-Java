@@ -1,0 +1,34 @@
+
+public class Practice {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+interface Graphics{
+	abstract public double circularArea();
+	abstract public double rectangularArea(); 
+	abstract public double area();
+}
+
+class Circular implements Graphics{
+	
+	private double pai = 3.141592;
+	private double r;
+	
+	Circular(double r){
+		this.r = r;
+	}
+	public double area(){
+		return this.r*this.r*this.pai;
+	}
+}
+
+
+

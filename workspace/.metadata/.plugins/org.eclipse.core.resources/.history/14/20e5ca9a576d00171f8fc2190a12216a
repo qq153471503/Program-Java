@@ -1,0 +1,50 @@
+/**
+ * 自定义异常时 要么继承Exception 要么继承RuntimeException
+ * 两者区别：前者是在编译时抛出异常 在子句上生命throws 后者无需*/
+public class ExceptionDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) /*throws NegativeException*/{
+		// TODO Auto-generated method stub
+
+		int[] arr = new int[3];
+		Demo d = new Demo();
+		d.method(arr, -10);
+	}
+}
+
+
+
+
+//自定义异常类
+class NegativeException extends RuntimeException{
+	 NegativeException() {
+		// TODO Auto-generated constructor stub
+	}
+	 
+	 NegativeException(String msg) {
+		 super(msg);
+	 }
+}
+
+
+//
+class Demo{
+	public void method(int[] arr, int index) throws NegativeException {
+		
+		if(index < 0)
+			throw new NegativeException("数组角标不能为是负数！");
+	}
+}
+
+
+
+
+
+
+
+
+
+

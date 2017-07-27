@@ -1,0 +1,20 @@
+
+public class fun{
+
+	public static void main(String[] args)
+	{
+		System.out.print("Function demo test !\n");
+		System.out.print(add(1,2));		
+	}
+	
+	public void myprintf(String p)
+	{
+		System.out.print(p);
+	}
+	
+	static int add(int a, int b)
+	{
+		return a + b;
+	}
+}	
+

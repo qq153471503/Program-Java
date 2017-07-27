@@ -1,0 +1,19 @@
+public class hello{
+	
+	public static void main(String[] args){
+		
+		byte a = 4;
+		
+		byte b = 3;
+		byte c = 7;
+		
+		auto d = b+c;
+		
+		System.out.println(a);
+		
+		if('Äã' > 'ºÃ')
+			System.out.println('Äã'+0);
+		else 
+			System.out.println('ºÃ'+0);
+	}
+}

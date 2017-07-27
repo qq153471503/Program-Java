@@ -1,0 +1,34 @@
+
+public class fun{
+
+	public static void main(String[] args)
+	{
+		System.out.print("Function demo test !\n");
+		System.out.print(add(1,2));	
+		myprintf("\nliuankun\n");
+		
+		if(equals(5, 5))
+			myprintf("关系成立");
+	}
+	
+	public static void myprintf(String p)
+	{
+		System.out.print(p);
+	}
+	
+	static int add(int a, int b)
+	{
+		return a + b;
+	}
+	
+	public static boolean equals(int a, int b)
+	{
+//		if(a == b)
+//			return true;
+//		else
+//			return false;
+//		return a==b?true:false;
+		return a==b;
+	}
+}	
+

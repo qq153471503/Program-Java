@@ -1,0 +1,18 @@
+class ArrayToolDemo{
+	
+	public static void main(String[] args) {
+		
+		int arr[] = {1,2,3,4,5};
+		
+		int arr2[] = {};
+		
+		ArraryFunction tool = new ArraryFunction();
+		
+		System.out.println("Array Max is:"+(tool.getArrayMax(arr)));
+		System.out.println("Array Max is:"+(tool.getArrayMax(arr2)));
+	}
+	
+}
+
+
+

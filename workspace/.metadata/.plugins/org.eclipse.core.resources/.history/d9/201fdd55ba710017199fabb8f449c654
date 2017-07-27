@@ -1,0 +1,38 @@
+
+public class ThreadDemo4 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+
+//饿汉式 :单例设计模式
+class Single{
+	private static final Single sg = new Single();
+	private Single(){
+		
+	}
+	
+	public Single getInstance(){
+		return this.sg;
+	}
+}
+
+
+//懒汉式： 延迟加载设计模式 用到该类的时候在加载
+class Single2{
+	private static Single2 s = null;
+	private Single2(){
+		
+	}
+	
+	public static Single2 getInstance(){
+		
+	}
+}
