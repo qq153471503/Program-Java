@@ -1,0 +1,42 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+/**
+ * 
+ * @author KunGe
+ *
+ *		【List】容器
+ *
+ */
+public class ListDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		List list = new ArrayList();
+		show(list);
+	}
+
+	private static void show(List l) {
+		//添加
+		l.add("abc1");
+		l.add("abc2");
+		l.add("abc3");
+		System.out.println(l);
+		
+		//指定位置插入
+		l.add(1, 7);
+		System.out.println(l);
+		
+		//删除一个
+		l.remove(1);
+		System.out.println(l);
+	}
+
+}
+
+
+

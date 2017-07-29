@@ -1,0 +1,56 @@
+import java.util.HashSet;
+import java.util.Iterator;
+
+/**
+ * 
+ * @author KunGe
+ *
+ *		【往HashSet集合中存储自定义对象】：存储Persion对象  如果年龄 姓名一致 视为同一个人
+ */
+public class HashSetDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		HashSet hs = new HashSet<>();
+		hs.add(new Person2(10, "王强"));
+		hs.add(new Person2(20, "李明"));
+		hs.add(new Person2(30, "赵磊"));
+		hs.add(new Person2(30, "赵磊"));
+		
+		Iterator it = hs.iterator();
+		
+		while(it.hasNext()){
+			Person2 p2 = (Person2)it.next();
+			System.out.println(p2.getAge()+"..."+p2.getName());
+		}
+		
+	}
+}
+
+
+class Person2{
+	private int age;
+	private String name;
+	Person2(int age, String name) {
+		super();
+		this.age = age;
+		this.name = name;
+	}
+	public int getAge() {
+		return age;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+}
+
+

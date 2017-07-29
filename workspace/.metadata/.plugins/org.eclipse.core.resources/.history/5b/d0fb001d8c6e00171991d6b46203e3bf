@@ -1,8 +1,0 @@
-package mypack1;
-
-class Demo {
-
-	public void show() {
-		System.out.println("mypack1...show...");
-	}
-}

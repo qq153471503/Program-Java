@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Extract method &apos;public static void singleDemo()&apos; from &apos;zPriactice1.main()&apos; to &apos;zPriactice1&apos;&#x0D;&#x0A;- Original project: &apos;ContainerDemo&apos;&#x0D;&#x0A;- Method name: &apos;singleDemo&apos;&#x0D;&#x0A;- Destination type: &apos;zPriactice1&apos;&#x0D;&#x0A;- Declared visibility: &apos;public&apos;" comments="false" description="Extract method &apos;singleDemo&apos;" destination="0" exceptions="false" flags="786434" id="org.eclipse.jdt.ui.extract.method" input="/src&lt;{zPriactice1.java" name="singleDemo" replace="false" selection="234 217" stamp="1501341665120" version="1.0" visibility="1"/>
+</session>

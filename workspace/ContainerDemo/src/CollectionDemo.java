@@ -1,5 +1,43 @@
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
+import java.util.LinkedList;
+
+
+/**
+ * 			【练习题】：请使用LinkedList模拟一个堆栈或者队列数据结构
+ * 
+ * 堆栈：栈->先进后厨 FILO
+ * 
+ * 队列：FIFO
+ * 
+ * 思路： 描述这样一个容器，给使用者对外提供方法
+ * 
+ *
+ */
+
+class MyQueue{
+	private LinkedList link;
+	MyQueue(){
+		link = new LinkedList();
+	}
+	
+	/**
+	 * 队列添加元素的功能
+	 * @param obj
+	 */
+	public void myAdd(Object obj) {
+		link.add(obj);
+	}
+	
+	public Object myGet() {
+		return link.removeLast();
+	}
+	
+	public boolean isNull() {
+		return link.isEmpty();
+	}
+}
 
 
 public class CollectionDemo {
@@ -14,9 +52,34 @@ public class CollectionDemo {
 //		show(coll);
 		
 		
-		Collection c1 = new ArrayList();
-		Collection c2 = new ArrayList();
-		show(c1, c2);
+//		Collection c1 = new ArrayList();
+//		Collection c2 = new ArrayList();
+//		show(c1, c2);
+		LinkedList l = new LinkedList();
+		show3(l);
+	}
+/*=========================================================================*/
+	private static void show3(LinkedList list) {
+		
+		list.add("123");
+		list.add("456");
+		list.add("789");
+		
+		for (Iterator iterator = list.iterator(); iterator.hasNext();) {
+
+			System.out.println(iterator.next());
+		}
+		
+		System.out.println();
+		
+		System.out.println("First : "+list.getFirst());
+		System.out.println("End   : "+list.getLast());
+		
+		System.out.println(list.removeFirst());
+		System.out.println(list);
+		
+		System.out.println(list.removeLast());
+		System.out.println(list);
 	}
 
 	public static void show(Collection c1, Collection c2) {
@@ -68,3 +131,7 @@ public class CollectionDemo {
 		
 	}
 }
+
+
+
+
