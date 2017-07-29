@@ -1,0 +1,28 @@
+/**
+ * @author KunGe
+ *
+ * 对一个字符串中的数据进行排序
+ *  "20 78 -2 50 -69 100 28"
+ *
+ *
+ *	思路：
+ *		1、都有空格  那就用切割，分成独立的多个小串
+ *		2、将小串转换成int型
+ *		3、排序
+ */
+public class BaseDataTypePractive {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		String str = "20 78 -2 50 -69 100 28";
+		
+	}
+
+	public String string2Int(String str) {
+		String[] s = str.split(" ");
+		return s;
+	}
+}

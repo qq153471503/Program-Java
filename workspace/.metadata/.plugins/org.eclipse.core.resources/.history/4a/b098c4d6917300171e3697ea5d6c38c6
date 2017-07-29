@@ -1,0 +1,22 @@
+/**
+ * @author KunGe
+ *
+ * 对一个字符串中的数据进行排序
+ *  "20 78 -2 50 -69 100 28"
+ *
+ *
+ *	思路：
+ *		1、
+ */
+public class BaseDataTypePractive {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		String str = "20 78 -2 50 -69 100 28";
+		System.out.println(str);
+		System.out.println(str.split(" "));
+	}
+
+}
