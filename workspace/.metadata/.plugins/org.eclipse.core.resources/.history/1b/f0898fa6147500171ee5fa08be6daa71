@@ -1,0 +1,13 @@
+
+public class GenericesDemo2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		Tool<Person2, Animal>
+	}
+
+}
+

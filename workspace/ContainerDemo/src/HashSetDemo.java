@@ -1,3 +1,4 @@
+import java.util.Comparator;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -39,7 +40,7 @@ public class HashSetDemo {
 }
 
 
-class Person2{
+class Person2 implements Comparable<Person2>{
 	private int age;
 	private String name;
 	Person2(int age, String name) {
@@ -82,10 +83,23 @@ class Person2{
 	@Override
 	public String toString() {
 		
-		return this.name+":"+this.age;
+		return "Person2 :"+this.name+":"+this.age;
+	}
+	@Override
+	public int compareTo(Person2 o) {
+
+//		Person2 p = (Person2)o;
+		if(!(o instanceof Person2))
+			throw new ClassCastException("传入类型错误！");
+		
+		int tmp = this.age - o.age;
+		
+		return tmp==0?this.name.compareTo(o.name):tmp;
 	}
 	
+	
 }
+
 
 
 

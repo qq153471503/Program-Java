@@ -1,0 +1,25 @@
+
+public class GenericesDemo2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		Tool<Person2, Animal> tool = new Tool<Person2,Animal>();
+		
+		tool.setC1(new Person2(10, "ÀîÃ÷"));
+		tool.setC2(new Animal("dog", 10));
+		
+		Person2 p = tool.getC1();
+		Animal ai = tool.getC2();
+		
+		System.out.println(p.getAge()+p.getName());
+		System.out.println(ai.getName()+ai.getNum());
+		
+		tool.show("asd");
+		tool.show(9);
+	}
+
+}
+

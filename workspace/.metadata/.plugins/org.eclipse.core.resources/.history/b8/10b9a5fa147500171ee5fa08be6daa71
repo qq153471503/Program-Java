@@ -1,0 +1,17 @@
+
+public class GenericesDemo2 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		Tool<Person2, Animal> tool = new Tool<>();
+		
+		Person2 p = tool.getObj();
+		
+		System.out.println(p.getName());
+	}
+
+}
+

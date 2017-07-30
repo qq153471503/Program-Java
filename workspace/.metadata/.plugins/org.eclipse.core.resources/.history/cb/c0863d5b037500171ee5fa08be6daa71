@@ -1,0 +1,71 @@
+import java.util.Comparator;
+import java.util.Iterator;
+import java.util.TreeSet;
+
+/**
+ * 		【TreeSet】：可以对集合中元素自然顺序排序  是不同步的
+ * @author KunGe
+ *
+ */
+public class TreeSetDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		show2();
+	}
+	/*
+	 * 存储对象
+	 */
+	public static void show2() {
+		TreeSet ts = new TreeSet();
+		
+		ts.add(new Person2(21,"李强"));
+		ts.add(new Person2(22,"王刚"));
+		ts.add(new Person2(23,"王刚"));
+		
+		Iterator it = ts.iterator();
+		
+		while(it.hasNext()){
+			System.out.println(it.next());
+		}	
+	}
+	/**
+	 * 存储字符串
+	 */
+	public static void show() {
+		TreeSet ts = new TreeSet();
+		
+		ts.add("ab");
+		ts.add("cd");
+		ts.add("ef");
+		ts.add("gh");
+		
+		Iterator it = ts.iterator();
+		
+		while(it.hasNext()){
+			System.out.println(it.next());
+		}
+	}
+}
+
+
+/**
+ * 创建一个根据Person2类中的name进行排序的比较器
+ */
+
+class ComparatorByName implements Comparator{
+
+	@Override
+	public int compare(Object o1, Object o2) {
+		Person2 p1 = (Person2)o1;
+		Person2 p2 = (Person2)o2;
+		
+		int tmp = p1.getName().compareTo(p2.getName());
+		
+		return tmp==0?p1.getAge()-p2.getAge():tmp;
+	}
+}
+

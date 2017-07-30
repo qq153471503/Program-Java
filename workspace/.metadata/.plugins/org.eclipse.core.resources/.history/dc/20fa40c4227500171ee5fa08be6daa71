@@ -1,0 +1,48 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+
+/*
+ * 【泛型通配符    ？  】
+ * 
+ * 泛型限定
+ */
+public class GenericesDemo3 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		ArrayList<Student> al = new ArrayList<>();
+		al.add(new Student(12, "xiaoming", 10001));
+		al.add(new Student(15, "liqiang", 10002));
+		
+		printColl(al);
+	}
+
+	
+	public static void printColl(Collection<? extends Person2> coll) {
+		Iterator<?> it = coll.iterator();
+		
+		while(it.hasNext()){
+			System.out.println(it.next());
+		}
+	}
+}
+
+class Student extends Person2{
+
+	private int id;
+	Student(int age, String name, int id) {
+		super(age, name);
+		this.id = id;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+}
+

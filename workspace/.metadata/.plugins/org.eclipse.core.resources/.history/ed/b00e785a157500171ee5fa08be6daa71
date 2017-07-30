@@ -1,0 +1,44 @@
+
+
+class Animal{
+	private String name;
+	private int num;
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public int getNum() {
+		return num;
+	}
+	public void setNum(int num) {
+		this.num = num;
+	}
+	Animal(String name, int num) {
+		super();
+		this.name = name;
+		this.num = num;
+	}
+	
+}
+
+
+public class Tool<C1,C2> {
+	private Object obj;
+
+	Tool() {
+		super();
+	}
+
+	public Object getObj() {
+		return obj;
+	}
+
+	public void setObj(Object obj) {
+		this.obj = obj;
+	}
+	
+}
+
+
