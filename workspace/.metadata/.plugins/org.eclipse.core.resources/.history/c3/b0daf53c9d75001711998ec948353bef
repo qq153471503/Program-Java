@@ -1,0 +1,36 @@
+import java.util.HashMap;
+import java.util.Map;
+
+
+public class MapDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		Map<Integer, String> map = new HashMap<>();
+		method2(map);
+	}
+	public static void method2(Map<Integer, String> map) {
+		map.put(10001, "李强");//添加
+		map.put(10002, "王明");
+		map.put(10003, "周花");//删除元素李明
+		
+		System.out.println(map.keySet());
+	}
+	
+	public static void method(Map<Integer, String> map) {
+		
+		map.put(10001, "李强");//添加
+		map.put(10002, "王明");
+		map.put(10002, "周花");//删除元素李明
+		
+		System.out.println(map);
+	}
+}
+
+
+
+
+

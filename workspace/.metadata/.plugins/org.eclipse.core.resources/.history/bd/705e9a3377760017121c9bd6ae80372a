@@ -1,0 +1,20 @@
+import java.util.Iterator;
+import java.util.Properties;
+
+
+public class API_SystemDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		Properties pro = System.getProperties();
+		Iterator<Object> it = pro.keySet().iterator();
+		while(it.hasNext()){
+			System.out.println(it.next());
+			System.out.println(pro.get(it.next()));
+		}
+	}
+
+}

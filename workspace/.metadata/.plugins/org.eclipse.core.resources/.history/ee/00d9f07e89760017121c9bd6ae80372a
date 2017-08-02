@@ -1,0 +1,29 @@
+import java.io.FileWriter;
+import java.io.IOException;
+
+
+public class Demo1 {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+
+		
+		demo_1();
+	}
+
+	private static void demo_1() throws IOException {
+		
+		//创建一个文件流对象
+		FileWriter fw = new FileWriter("G:\\123.txt");
+		
+
+		fw.write("asdasjfals");
+//		fw.close();
+		fw.append('A');
+		fw.flush();
+		
+	}
+}

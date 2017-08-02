@@ -1,0 +1,28 @@
+import java.io.IOException;
+import java.io.InputStream;
+
+/**
+ * 【键盘录入】：打印在控制台
+ * @author KunGe
+ *
+ */
+public class Demo1 {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+
+		readKey();
+	}
+
+	private static void readKey() throws IOException {
+		InputStream in = System.in;
+		int ch = in.read();
+		System.out.println(ch);
+	}
+
+}
+
+

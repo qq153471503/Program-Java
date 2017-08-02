@@ -36,4 +36,10 @@ Comparable & Comparator 都是用来实现集合中元素的比较、排序的，
 						
 						
 						
-						
+Map 常用子类		
+
+1、HashTable：  内部结构哈希表，同步， 不允许出现null键和值
+	：Properties：属性  用来存储键值对型配置文件的信息，可以和IO技术相结合
+	
+2、HashMap：内部结构哈希表，不同步 允许出现null键和值
+3、TreeMap：内部结构二叉树，不同步，	可以对map集合中的键进行排序	

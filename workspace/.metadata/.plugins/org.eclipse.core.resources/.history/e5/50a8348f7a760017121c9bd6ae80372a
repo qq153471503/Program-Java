@@ -1,0 +1,41 @@
+import java.util.Iterator;
+import java.util.Properties;
+import java.util.Set;
+
+
+public class API_SystemDemo {
+
+	private static final String LINE_SEPARATOR = System.getProperty("line.separator");
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+//		System.out.println("hello"+LINE_SEPARATOR+"world");
+//		showPro();
+//		System.setProperty("z--->username", "刘安坤");
+//		showPro();
+		
+		System.out.println(Runtime.getRuntime().toString());
+	}
+
+	private static void showPro() {
+		Properties pro = System.getProperties();
+//		Iterator<Object> it = pro.keySet().iterator();
+//		while(it.hasNext()){
+//			System.out.print(it.next());
+//			System.out.println("-->>"+pro.get(it.next()));
+//			System.out.println();
+//		}
+		
+		//第二种方法
+		Set<String> nameSet = pro.stringPropertyNames(); //获得键
+		for(String s : nameSet){
+			String val = pro.getProperty(s);				//根据键获得值
+			System.out.println(s+"..."+val);
+		}
+	}
+}
+
+
+

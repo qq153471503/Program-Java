@@ -1,0 +1,52 @@
+package homework;
+
+import java.io.FileReader;
+import java.io.FileWriter;
+
+/**
+ * 【练习题】：复制文件到另一个位置
+ * 
+ * @author KunGe
+ *
+ */
+public class Demo1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		copy("G:\\123.txt", "F:\\");
+	}
+	
+	public static void copy(String sourceDir, String objDir) {
+		
+		FileReader fr=null;
+		FileWriter fw=null;
+		try {
+
+			int tmp=0;
+			fr = new FileReader(sourceDir);
+			fw = new FileWriter(objDir);
+			
+			while((tmp=fr.read()) != -1){
+				fw.write(tmp);
+			}
+			
+		} catch (Exception e) {
+
+			throw new RuntimeException("文件复制出错！");
+			
+		}finally {
+			try {
+				fr.close();
+				fw.close();
+			} catch (Exception e) {
+
+				throw new RuntimeException("关闭文件失败！");
+			}
+		}
+	}
+	
+
+}

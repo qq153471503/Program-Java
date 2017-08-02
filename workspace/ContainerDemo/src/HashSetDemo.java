@@ -63,7 +63,7 @@ class Person2 implements Comparable<Person2>{
 	
 	@Override
 	public int hashCode() {
-		System.out.println(this.toString()+"  .....hashCode...");
+//		System.out.println(this.toString()+"  .....hashCode...");
 		return this.name.hashCode()+this.age;
 	}
 	@Override
@@ -73,7 +73,7 @@ class Person2 implements Comparable<Person2>{
 		if(! (obj instanceof Person2))
 			throw new ClassCastException("传入的类型错误！");
 		
-		System.out.println(this.toString()+"  .....equals...");
+//		System.out.println(this.toString()+"  .....equals...");
 		Person2 p = (Person2)obj;
 		if( (this.name == p.getName()) && (this.age == p.getAge()))
 			return true;

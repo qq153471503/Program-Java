@@ -1,0 +1,30 @@
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+/*
+ * 【字节流】：可以操作字符，也可以处理媒体文件
+ * 
+ * 
+ * 注意：  无需临时存储缓冲，直接写入
+ */
+public class ByteStreanDemo {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+
+		demo_1();
+	}
+
+	private static void demo_1() throws IOException {
+		
+		//1、创建字节流=输出流对象 操作文件  
+		FileOutputStream fop = new FileOutputStream("G:\\123.txt");
+		fop.write("abcedefsafa".getBytes());
+//		fop.close();
+	}
+
+}

@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
+
+public class ToolClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		demo_1();
+	}
+
+	private static void demo_1() {
+		List<String> li = new ArrayList<>();
+		li.add("abc");
+		li.add("def");
+		li.add("xyz");
+		System.out.println(li);
+		
+		Collections.sort(li);
+		System.out.println(li);
+	}
+
+}

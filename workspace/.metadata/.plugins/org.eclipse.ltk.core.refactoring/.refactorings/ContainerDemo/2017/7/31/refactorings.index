@@ -2,3 +2,8 @@
 1501411453024	Delete element
 1501418529439	Extract method 'show'
 1501422893197	Infer generic type arguments
+1501492611601	Extract method 'function'
+1501507656477	Infer generic type arguments
+1501508030487	Infer generic type arguments
+1501508482157	Encapsulate field 'list'
+1501512684042	Extract method 'show'

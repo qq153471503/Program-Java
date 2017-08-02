@@ -1,0 +1,47 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+
+public class ToolClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		demo_1();
+	}
+
+	private static void demo_1() {
+		List<String> li = new ArrayList<>();
+		li.add("jfd");
+		li.add("defg");
+		li.add("abchj");
+		li.add("xyzldr");
+		li.add("xyz");
+		System.out.println(li);
+		
+		Collections.sort(li);		//≈≈–Ú
+		System.out.println(li);
+		
+		Collections.swap(li, 1, 2); //ΩªªªŒª÷√
+		System.out.println(li);
+		
+		Collections.sort(li, new CompBylen());
+		System.out.println(li);
+
+	}
+
+}
+
+class CompBylen implements Comparator<String>{
+
+
+	@Override
+	public int compare(String o1, String o2) {
+		return o1.length()-o2.length();
+	}
+ 
+}
