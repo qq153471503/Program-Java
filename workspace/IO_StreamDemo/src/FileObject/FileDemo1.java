@@ -70,7 +70,84 @@ public class FileDemo1 {
 		 * 【根据过滤器获得目录下的内容】  获得该目录下所有的.txt文件  对象方式
 		 */
 		
-		demo_7();
+//		demo_7();
+		
+		//深度遍历
+//		demo_8();
+		
+		//递归调用
+//		System.out.println(add(3));
+		
+		/*
+		 * 【练习】：删除带内容的目录
+		 * 
+		 * 思路：只能删除空目录，所以要在最深层往外删除
+		 */
+		
+		File file = new File("G:\\demodir");
+		Priactice(file);
+		
+		
+		
+	}
+
+	private static void Priactice(File file) {
+		File[] files = file.listFiles();
+		
+		for (int i = 0; i < files.length; i++) {
+			if(files[i].isDirectory())
+				Priactice(files[i]);
+			else 
+				files[i].delete();
+		}
+		
+		System.out.println(file.list());
+		System.out.println(file.delete());
+	}
+
+	private static int add(int i) {
+		
+		if(i==1)
+			return 1;
+		
+		return add(i-1)+i;
+		
+	}
+
+	/**
+	 * 【深度遍历文件夹】
+	 */
+	private static void demo_8() {
+		File dir = new File("G:\\demodir");
+		int level = 0;
+		
+		listAll(dir,level);
+	}
+	
+
+	private static void listAll(File dir, int level) {
+		
+		System.out.println(getSpace(level)+dir.getName());
+		level++;
+		//获取目录下的所有文件和文件夹对象
+		File[] files = dir.listFiles();
+		
+		for (int i = 0; i < files.length; i++) {
+			if(files[i].isDirectory()){
+				listAll(files[i], level);				//递归调用
+			}
+			else 
+				System.out.println(files[i].getAbsolutePath());
+		}
+	}
+
+	private static String getSpace(int level) {
+		
+		StringBuffer sb = new StringBuffer();
+		for (int i = 0; i < level; i++) {
+			sb.append("		");
+		}
+			return sb.toString();
 		
 	}
 

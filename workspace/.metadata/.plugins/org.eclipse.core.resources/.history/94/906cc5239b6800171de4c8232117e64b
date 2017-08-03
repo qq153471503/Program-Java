@@ -1,9 +1,0 @@
-import java.util.Scanner;
-
-class areaDemo{
-	public static void main(String[] args){
-		Scanner input = new Scanner(System.in);
-		System.out.print("«Î ‰»Î∞Îæ∂£∫ ");
-		double r = input.nextDouble();
-	}
-}

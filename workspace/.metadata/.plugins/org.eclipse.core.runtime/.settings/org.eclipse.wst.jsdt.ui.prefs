@@ -15,8 +15,12 @@ java_single_line_comment=125,140,147
 java_string=236,118,0
 org.eclipse.jface.textfont=1|Courier New|10.0|0|WINDOWS|1|0|0|0|0|0|0|0|0|1|0|0|0|0|Courier New;
 org.eclipse.wst.jsdt.ui.editor.tab.width=
+org.eclipse.wst.jsdt.ui.exception.name=e
 org.eclipse.wst.jsdt.ui.formatterprofiles.version=11
+org.eclipse.wst.jsdt.ui.gettersetter.use.is=true
 org.eclipse.wst.jsdt.ui.javadoclocations.migrated=true
+org.eclipse.wst.jsdt.ui.text.code_templates_migrated=true
+org.eclipse.wst.jsdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="false" context\="org.eclipse.jsdt.catchblock_context" deleted\="false" description\="Code in new catch blocks" enabled\="true" id\="org.eclipse.wst.jsdt.ui.text.codetemplates.catchblock" name\="catchblock">\r\n${exception_var}.printStackTrace();</template><template autoinsert\="false" context\="org.eclipse.jsdt.methodbody_context" deleted\="false" description\="Code in created function stubs" enabled\="true" id\="org.eclipse.wst.jsdt.ui.text.codetemplates.methodbody" name\="methodbody">\r\n${body_statement}</template><template autoinsert\="false" context\="org.eclipse.jsdt.constructorbody_context" deleted\="false" description\="Code in created constructor stubs" enabled\="true" id\="org.eclipse.wst.jsdt.ui.text.codetemplates.constructorbody" name\="constructorbody">${body_statement}\r\n</template></templates>
 proposalOrderMigrated=true
 semanticHighlighting.localVariable.color=224,226,228
 semanticHighlighting.localVariable.enabled=true

@@ -7,16 +7,10 @@
 	<section name="CleanDialogSettings">
 		<item value="500" key="DIALOG_WIDTH"/>
 		<item value="false" key="BUILD_NOW"/>
-		<item value="277" key="DIALOG_Y_ORIGIN"/>
+		<item value="260" key="DIALOG_Y_ORIGIN"/>
 		<item value="true" key="BUILD_ALL"/>
+		<item value="710" key="DIALOG_X_ORIGIN"/>
 		<item value="457" key="DIALOG_HEIGHT"/>
-		<item value="807" key="DIALOG_X_ORIGIN"/>
 		<item value="false" key="TOGGLE_SELECTED"/>
-	</section>
-	<section name="NewWizardAction">
-		<item value="org.eclipse.jdt.ui.wizards.JavaProjectWizard" key="NewWizardSelectionPage.STORE_SELECTED_ID"/>
-		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
-			<item value="org.eclipse.jdt.ui.java"/>
-		</list>
 	</section>
 </section>

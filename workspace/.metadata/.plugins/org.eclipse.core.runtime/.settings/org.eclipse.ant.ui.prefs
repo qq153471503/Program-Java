@@ -1,9 +1,15 @@
 eclipse.preferences.version=1
 org.eclipse.ant.ui.commentsColor=125,140,147
 org.eclipse.ant.ui.constantStringsColor=236,118,0
+org.eclipse.ant.ui.customtemplates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 org.eclipse.ant.ui.dtdColor=103,140,177
 org.eclipse.ant.ui.processingInstructionsColor=224,226,228
 org.eclipse.ant.ui.tagsColor=103,140,177
 org.eclipse.ant.ui.textColor=224,226,228
+problem_classpath=warning
+problem_imports=warning
+problem_properties=ignore
+problem_security=warning
+problem_tasks=ignore
 useAnnotationsPrefPage=true
 useQuickDiffPrefPage=true
