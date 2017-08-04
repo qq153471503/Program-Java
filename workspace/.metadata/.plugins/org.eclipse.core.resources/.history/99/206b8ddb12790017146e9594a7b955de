@@ -1,0 +1,46 @@
+package Practice;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.OutputStreamWriter;
+
+/**
+ *【综合练习】：读取一个目录的指定类型文件路径，存储进一个文件中。 
+ * @author KunGe
+ *
+ *
+ *【思路】：
+ *	整体思路：1、深度遍历文件路径，查找文件
+ *					创建文件对象，列出该目录下的文件，判断是否为文件夹，如是，继续往下遍历，若不是，
+ *					判断是否是指定类型文件，若是，写入到记录文件中，若不是，舍弃
+ *			2、写入到文件
+ */
+public class PracticeDemo {
+
+	/**
+	 * @param args
+	 * @throws Exception 
+	 */
+	public static void main(String[] args) throws Exception {
+
+		find("G:","G:\\info.txt");
+	}
+
+	private static void find(String objFind, String objFile) throws Exception {
+		
+		BufferedWriter bufw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(objFile),"GBK"));
+		File file = new File(objFind);
+		
+		File[] files = file.listFiles();
+		
+		for(File fi : files){
+			System.out.println(fi);
+		}
+		
+		
+	}
+
+	
+}

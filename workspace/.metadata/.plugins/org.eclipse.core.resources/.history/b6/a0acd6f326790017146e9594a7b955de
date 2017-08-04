@@ -1,0 +1,48 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.SequenceInputStream;
+import java.util.EnumSet;
+import java.util.Enumeration;
+import java.util.Vector;
+
+/**
+ * 【序列流】：演示demo
+ * 
+ * 序列流：表示其他输入流的串联
+ * @author KunGe
+ *
+ */
+public class SequenceStreamDemo {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+
+		Vector<FileInputStream> vec = new Vector<>();
+		
+		vec.add(new FileInputStream("G:\\123.TXT"));
+		vec.add(new FileInputStream("G:\\456.TXT"));
+		vec.add(new FileInputStream("G:\\789.TXT"));
+		
+		Enumeration<FileInputStream> en = vec.elements();
+		
+		SequenceInputStream sis = new SequenceInputStream(en);
+		FileOutputStream fop = new FileOutputStream("G:\\101112.txt");
+		
+		int flag = 0;
+		
+		while ((flag=sis.read()) != -1) {
+			fop.write(flag);
+		}
+		
+		fop.close();
+		sis.close();
+		
+	}
+
+}
+

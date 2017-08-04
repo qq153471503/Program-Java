@@ -1,11 +1,15 @@
 package Properties;
 
 import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
 import java.util.Properties;
 import java.util.Set;
 
@@ -43,27 +47,31 @@ public class ProperiesDemo {
 		
 	}
 
+	/*
+	 * 【模拟load方法】
+	 */
+	private static void load(){
+		
+	}
 	private static void demo_2() throws IOException {
 		Properties pro = new Properties();
 
+		BufferedWriter bufw = new BufferedWriter(new OutputStreamWriter(new FileOutputStream("G:\\info.txt")));
 		BufferedReader bufr = new BufferedReader(new InputStreamReader(new FileInputStream("G:\\info.txt"),"GBK"));
+//		pro.store(fop, "这是描述文件测试!");
+//		fop.close();
 		
-		System.out.println(bufr.readLine());
-		//存储
-		pro.setProperty("l", "abc");
-		pro.setProperty("2", "def");
-		pro.setProperty("3", "ghi");
-		pro.setProperty("4", "jkl");
+//		pro.load(new FileInputStream("G:\\info.txt"));
 		
-//		pro.list(System.out);
-		
-		FileOutputStream fop = new FileOutputStream("G:\\info.txt");
-		pro.store(fop, "这是描述文件测试!");
-		fop.close();
-		
-		pro.load(new FileInputStream("G:\\info.txt"));
-		
+		pro.load(bufr);
 		pro.list(System.out);
+		
+	
+		pro.setProperty("c", "5");
+		
+		
+		pro.store(bufw, "");
+		
 		
 	}
 

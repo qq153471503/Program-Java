@@ -1,0 +1,12 @@
+package Practice;
+
+public class PracticeDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

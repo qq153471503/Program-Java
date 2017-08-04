@@ -1,0 +1,27 @@
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.io.UnsupportedEncodingException;
+
+/**
+ *【打印流】：演示DEMO 
+ * @author KunGe
+ *
+ */
+public class PrintDemo {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 * @throws FileNotFoundException 
+	 */
+	public static void main(String[] args) throws FileNotFoundException, IOException {
+
+		PrintWriter pw = new PrintWriter(new File("G:\\123.TXT"), "GBK");
+		
+		pw.println("ABKAHKAJHFKDJ刘安坤\n");
+		pw.close();
+	}
+
+}

@@ -1,0 +1,29 @@
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.SequenceInputStream;
+
+/**
+ * 【序列流】：演示demo
+ * 
+ * 序列流：表示其他输入流的串联
+ * @author KunGe
+ *
+ */
+public class SequenceStreamDemo {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+
+		SequenceInputStream sis = new SequenceInputStream(new FileInputStream("G:\\123.TXT"), new FileInputStream("G:\\456.txt"));
+		
+		int flag = 0;
+		while ((flag=sis.read()) != -1) {
+			System.out.println(String.valueOf(flag)));
+		}
+	}
+
+}
