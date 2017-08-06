@@ -21,6 +21,10 @@ public class NetworkProgrammingDemo {
 		System.out.println("over");
 		
 		
+		ip = InetAddress.getByName("www.baidu.com");
+		System.out.println(ip.getHostName());
+		System.out.println(ip.getHostAddress());
+		
 	}
 
 }

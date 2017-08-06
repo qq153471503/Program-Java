@@ -1,0 +1,31 @@
+package UDP;
+
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.SocketException;
+import java.net.UnknownHostException;
+
+public class SendData {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+
+		DatagramSocket ds = new DatagramSocket();
+		String data = "接收端你好，我过来啦！";
+		
+		byte[] buf = data.getBytes();
+		
+		DatagramPacket dp = new DatagramPacket(buf, buf.length, InetAddress.getByName("192.168.126.1"),10000);
+		
+		ds.send(dp);
+		
+		ds.close();
+		
+	}
+
+}

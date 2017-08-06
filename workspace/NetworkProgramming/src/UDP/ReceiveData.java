@@ -1,0 +1,45 @@
+package UDP;
+
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+
+/**
+ * 【注意】：DatagramPacket类中receive方法是阻塞式
+ * @author KunGe
+ *
+ */
+public class ReceiveData {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+
+		/**
+		 * 1、创建并绑定到发送端 端口
+		 * 2、创建接收数据缓冲区
+		 * 3、接收数据
+		 * 4、利用接收到的包，分离数据 例如ip 端口等
+		 * 5、关系套接字
+		 */
+		System.out.println("start receive...");
+		DatagramSocket ds = new DatagramSocket(10000);
+		
+		byte[] buf = new byte[1024];
+		DatagramPacket dp = new DatagramPacket(buf, buf.length);
+		
+		ds.receive(dp);
+		
+		String data = new String(dp.getData(), 0, dp.getLength());
+		int port = dp.getPort();
+		String ip = dp.getAddress().getHostAddress();
+		
+		System.out.println(ip+":"+port+" -> "+data);
+		
+		ds.close();
+	}
+
+}

@@ -1,0 +1,87 @@
+package UDP;
+
+import java.io.IOException;
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+import java.net.InetAddress;
+import java.net.InetSocketAddress;
+import java.net.SocketException;
+import java.net.UnknownHostException;
+/**
+ * 【UDP 协议 demo】
+ */
+
+/**
+ * 【socket】：插座 专业术语：套接字
+ * @author KunGe
+ * 
+ * DatagramSocket
+ * 
+ *  此类中的工造方法，参数凡是带有地址的，都是用于发送的
+ * DatagramPachet
+ *
+ */
+public class UDP_ProtocolsDemo {
+
+	/**
+	 * @param args
+	 * @throws Exception 
+	 */
+	public static void main(String[] args) throws Exception {
+
+		sendData();
+		receiveData();
+	}
+
+	private static void receiveData() throws IOException, UnknownHostException {
+		/**
+		 * 1、建立UDP socket
+		 * 2、创建接收用的数据包
+		 */
+		
+		System.out.println("receive start...");
+		DatagramSocket ds = new DatagramSocket();
+		
+		byte[] buf = new byte[1024];
+		DatagramPacket p = new DatagramPacket(buf, buf.length);
+		
+		//此方法阻塞
+		ds.receive(p);
+		String ip = p.getAddress().getHostAddress();
+		int port = p.getPort();
+		String recvData = new String(p.getData(), 0, p.getLength());
+		
+		System.out.println(recvData+ip);
+		
+		ds.close();
+	}
+
+	private static void sendData() throws Exception {
+		
+		System.out.println("send starting...");
+		//创建UDP socket
+		DatagramSocket ds = new DatagramSocket();
+		
+		String str = "UDP 传输演示！";
+		
+		byte[] buf = str.getBytes();
+		
+		//封装UDP协议报包
+		DatagramPacket dp = 
+			new DatagramPacket(buf,buf.length,InetAddress.getByName("127.0.0.1"),10000);
+		
+		
+		//发送数据
+		ds.send(dp);
+		
+		//关闭socket
+		ds.close();
+	}
+
+}
+
+
+
+
+
+
