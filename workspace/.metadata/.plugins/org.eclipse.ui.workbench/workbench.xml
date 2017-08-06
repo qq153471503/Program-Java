@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="27" version="2.0">
+<workbench progressCount="25" version="2.0">
 <workbenchAdvisor/>
-<window height="826" width="974" x="542" y="52">
+<window height="826" width="974" x="508" y="60">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -32,28 +32,13 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
-<part id="1"/>
-<part id="2"/>
-<part id="3"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PracticeDemo.java" partName="PracticeDemo.java" path="H:/Program-Java/workspace/IO_StreamDemo/src/Practice/PracticeDemo.java" title="PracticeDemo.java" tooltip="IO_StreamDemo/src/Practice/PracticeDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO_StreamDemo/src/Practice/PracticeDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="789" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo1.java" partName="FileDemo1.java" path="H:/Program-Java/workspace/IO_StreamDemo/src/FileObject/FileDemo1.java" title="FileDemo1.java" tooltip="IO_StreamDemo/src/FileObject/FileDemo1.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO_StreamDemo/src/FileObject/FileDemo1.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="2106" selectionTopPixel="2220"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArrayListDemo.java" partName="ArrayListDemo.java" path="H:/Program-Java/workspace/ContainerDemo/src/ArrayListDemo.java" title="ArrayListDemo.java" tooltip="ContainerDemo/src/ArrayListDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ContainerDemo/src/ArrayListDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SequenceStreamDemo.java" partName="SequenceStreamDemo.java" path="H:/Program-Java/workspace/IO_StreamDemo/src/SequenceStreamDemo.java" title="SequenceStreamDemo.java" tooltip="IO_StreamDemo/src/SequenceStreamDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO_StreamDemo/src/SequenceStreamDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="609" selectionTopPixel="180"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NetworkProgrammingDemo.java" partName="NetworkProgrammingDemo.java" path="H:/Program-Java/workspace/NetworkProgramming/src/NetworkProgrammingDemo.java" title="NetworkProgrammingDemo.java" tooltip="NetworkProgramming/src/NetworkProgrammingDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetworkProgramming/src/NetworkProgrammingDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="560" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
@@ -62,9 +47,6 @@
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
-<expanded>
-<category IMemento.internal.id="Java Exception Breakpoints (2 items)"/>
-</expanded>
 <columnWidths org.eclipse.ui.ide.allSeverityField="300" org.eclipse.ui.ide.locationField="90" org.eclipse.ui.ide.markerType="90" org.eclipse.ui.ide.pathField="120" org.eclipse.ui.ide.resourceField="90"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.allSeverityField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
@@ -156,7 +138,7 @@
 <view id="org.eclipse.wst.server.ui.ServersView" ratio="0.3"/>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" ratio="0.3"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" ratio="0.3"/>
-<view id="org.eclipse.ui.console.ConsoleView" ratio="0.2978959"/>
+<view id="org.eclipse.ui.console.ConsoleView" ratio="0.29765397"/>
 </fastViews>
 </fastViewBar>
 <fastViewBar fastViewLocation="16384" id="topLeft" orientation="512" selectedTabId="org.eclipse.ui.navigator.ProjectExplorer" style="1">
@@ -168,7 +150,7 @@
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
@@ -186,7 +168,7 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.25" ratioLeft="250" ratioRight="750" relationship="2" relative="topLeft"/>
 <info folder="true" part="bottomRight" ratio="0.6996904" ratioLeft="452" ratioRight="194" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.AllMarkersView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.PropertySheet" label="LabelNotFound"/>
 <page content="org.eclipse.wst.server.ui.ServersView" label="LabelNotFound"/>
@@ -202,7 +184,7 @@
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.7" ratioLeft="525" ratioRight="225" relationship="2" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
 <page content="org.eclipse.mylyn.tasks.ui.views.tasks" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
@@ -215,160 +197,159 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO_StreamDemo/src/Practice/PracticeDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO_StreamDemo/src/PrintDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO_StreamDemo/src/CopyOfPrintDemo.java"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO_StreamDemo/src/SequenceStreamDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO_StreamDemo/src/Practice/PracticeDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetworkProgramming/src/NetworkProgrammingDemo.java"/>
 </editors>
-<item historyLabel="CopyOfPrintDemo.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
-</item>
-<item historyLabel="PrintDemo.java" index="1">
-<position info="not_deleted" x="493" y="0"/>
-</item>
-<item historyLabel="PracticeDemo.java" index="0">
-<position info="not_deleted" x="789" y="0"/>
-</item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="362" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="447" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="460" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="522" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="732" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="774" y="1"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="786" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="844" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="802" y="3"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="840" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="844" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="806" y="36"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="701" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="1056" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="1286" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="1190" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="1139" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="1190" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="973" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="1006" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="1023" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="1708" y="54"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="908" y="0"/>
 </item>
-<item historyLabel="SequenceStreamDemo.java" index="3">
+<item historyLabel="SequenceStreamDemo.java" index="0">
 <position info="not_deleted" x="290" y="0"/>
 </item>
-<item active="true" historyLabel="SequenceStreamDemo.java" index="3">
-<position/>
+<item historyLabel="SequenceStreamDemo.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PracticeDemo.java" index="1">
+<position info="not_deleted" x="789" y="0"/>
+</item>
+<item historyLabel="SequenceStreamDemo.java" index="0">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="NetworkProgrammingDemo.java" index="2">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -395,6 +376,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NetworkProgrammingDemo.java" tooltip="NetworkProgramming/src/NetworkProgrammingDemo.java">
+<persistable path="/NetworkProgramming/src/NetworkProgrammingDemo.java"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SequenceStreamDemo.java" tooltip="IO_StreamDemo/src/SequenceStreamDemo.java">
 <persistable path="/IO_StreamDemo/src/SequenceStreamDemo.java"/>
 </file>
