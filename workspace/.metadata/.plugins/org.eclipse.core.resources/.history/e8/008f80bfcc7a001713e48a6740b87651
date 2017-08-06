@@ -1,0 +1,48 @@
+package chat;
+
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+
+public class Receive implements Runnable {
+
+	private DatagramSocket ds;
+	private byte[] buf = new byte[1024];
+	private DatagramPacket dp = new DatagramPacket(buf, buf.length);
+	
+	private String data=null;
+	private int port=-1;
+	private String ip=null;
+	
+	public Receive(DatagramSocket ds) {
+		super();
+		this.ds = ds;
+	}
+
+	@Override
+	public void run() {
+		
+		try{
+				while(true)
+				{
+					ds.receive(dp);
+					data = new String(dp.getData(), 0, dp.getLength());
+
+					port = dp.getPort();
+					ip = dp.getAddress().getHostAddress();
+					
+					if(data.equals("over")){
+						System.out.println(ip+port+"退出聊天室!");
+						break;
+					}
+					
+					System.out.println(ip+":"+port+" -> "+data);
+				}
+				
+				ds.close();
+				System.out.println("聊天室结束！");
+		}catch (Exception e) {
+			
+		}
+	}
+
+}

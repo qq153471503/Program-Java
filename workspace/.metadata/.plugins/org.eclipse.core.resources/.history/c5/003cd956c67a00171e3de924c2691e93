@@ -25,25 +25,21 @@ public class ReceiveData {
 		 * 4、利用接收到的包，分离数据 例如ip 端口等
 		 * 5、关系套接字
 		 */
-		
 		System.out.println("start receive...");
 		DatagramSocket ds = new DatagramSocket(10000);
 		
-		while(true){
-			
-			byte[] buf = new byte[1024];
-			DatagramPacket dp = new DatagramPacket(buf, buf.length);
-			
-			ds.receive(dp);
-			
-			String data = new String(dp.getData(), 0, dp.getLength());
-			int port = dp.getPort();
-			String ip = dp.getAddress().getHostAddress();
-			
-			System.out.println(ip+":"+port+" -> "+data);
-			
-	//		ds.close();
-		}
+		byte[] buf = new byte[1024];
+		DatagramPacket dp = new DatagramPacket(buf, buf.length);
+		
+		ds.receive(dp);
+		
+		String data = new String(dp.getData(), 0, dp.getLength());
+		int port = dp.getPort();
+		String ip = dp.getAddress().getHostAddress();
+		
+		System.out.println(ip+":"+port+" -> "+data);
+		
+		ds.close();
 	}
 
 }

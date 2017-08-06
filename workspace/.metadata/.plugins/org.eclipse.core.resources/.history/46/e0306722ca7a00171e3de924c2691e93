@@ -1,0 +1,35 @@
+package chat;
+
+import java.net.DatagramPacket;
+import java.net.DatagramSocket;
+
+public class Receive implements Runnable {
+
+	private DatagramSocket ds;
+	
+	public Receive(DatagramSocket ds) {
+		super();
+		this.ds = ds;
+	}
+
+	@Override
+	public void run() {
+		byte[] buf = new byte[1024];
+		try{
+				while(true)
+				{
+					DatagramPacket dp = new DatagramPacket(buf, buf.length);
+					ds.receive(dp);
+					String data = new String(dp.getData(), 0, dp.getLength());
+					int port = dp.getPort();
+					String ip = dp.getAddress().getHostAddress();
+					System.out.println(ip+":"+port+" -> "+data);
+			//		ds.close();
+				}
+				
+		}catch (Exception e) {
+			
+		}
+	}
+
+}

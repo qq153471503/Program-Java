@@ -1,0 +1,12 @@
+package UDP;
+
+public class Chat {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
