@@ -1,0 +1,25 @@
+package TCP;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+public class TcpServerDemo {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 * @throws UnknownHostException 
+	 */
+	public static void main(String[] args) throws UnknownHostException, IOException {
+
+		Socket soc = new Socket(InetAddress.getByName("¡ı∞≤¿§"), 10000);
+		
+		InputStream in = soc.getInputStream();
+		
+		System.out.println(in);
+	}
+
+}

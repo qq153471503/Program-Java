@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="52" version="2.0">
+<workbench progressCount="58" version="2.0">
 <workbenchAdvisor/>
-<window height="826" width="974" x="480" y="98">
+<window height="826" width="974" x="494" y="90">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -35,26 +35,44 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
+<part id="3"/>
+<part id="4"/>
+<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Chat.java" partName="Chat.java" path="H:/Program-Java/workspace/NetworkProgramming/src/chat/Chat.java" title="Chat.java" tooltip="NetworkProgramming/src/chat/Chat.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetworkProgramming/src/chat/Chat.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="444" selectionTopPixel="47"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UploadServer.java" partName="UploadServer.java" path="H:/Program-Java/workspace/NetworkProgramming/src/uploadPicture/UploadServer.java" title="UploadServer.java" tooltip="NetworkProgramming/src/uploadPicture/UploadServer.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetworkProgramming/src/uploadPicture/UploadServer.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="404" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Receive.java" partName="Receive.java" path="H:/Program-Java/workspace/NetworkProgramming/src/chat/Receive.java" title="Receive.java" tooltip="NetworkProgramming/src/chat/Receive.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetworkProgramming/src/chat/Receive.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="521" selectionTopPixel="239"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UploadClient.java" partName="UploadClient.java" path="H:/Program-Java/workspace/NetworkProgramming/src/uploadPicture/UploadClient.java" title="UploadClient.java" tooltip="NetworkProgramming/src/uploadPicture/UploadClient.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetworkProgramming/src/uploadPicture/UploadClient.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="508" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Send.java" partName="Send.java" path="H:/Program-Java/workspace/NetworkProgramming/src/chat/Send.java" title="Send.java" tooltip="NetworkProgramming/src/chat/Send.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetworkProgramming/src/chat/Send.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="453" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CopyOfPrintDemo.java" partName="CopyOfPrintDemo.java" path="H:/Program-Java/workspace/IO_StreamDemo/src/CopyOfPrintDemo.java" title="CopyOfPrintDemo.java" tooltip="IO_StreamDemo/src/CopyOfPrintDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO_StreamDemo/src/CopyOfPrintDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProperiesDemo.java" partName="ProperiesDemo.java" path="H:/Program-Java/workspace/IO_StreamDemo/src/Properties/ProperiesDemo.java" title="ProperiesDemo.java" tooltip="IO_StreamDemo/src/Properties/ProperiesDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO_StreamDemo/src/Properties/ProperiesDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="270"/>
+</editor>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintDemo.java" partName="PrintDemo.java" path="H:/Program-Java/workspace/IO_StreamDemo/src/PrintDemo.java" title="PrintDemo.java" tooltip="IO_StreamDemo/src/PrintDemo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO_StreamDemo/src/PrintDemo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="520" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GUI_Demo.java" partName="GUI_Demo.java" path="H:/Program-Java/workspace/GUI/src/GUI_Demo.java" title="GUI_Demo.java" tooltip="GUI/src/GUI_Demo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GUI/src/GUI_Demo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="148" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView:Console View #3" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
@@ -68,6 +86,9 @@
 </view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.ui.console.ConsoleView:Console View #1" partName="Console">
+<viewState/>
+</view>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
@@ -135,16 +156,23 @@
 <perspective_action id="org.eclipse.wst.web.ui.webDevPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.jdt.ui.actions.OpenProjectWizard"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.AllMarkersView"/>
 <view id="org.eclipse.ui.views.PropertySheet"/>
 <view id="org.eclipse.wst.server.ui.ServersView"/>
 <view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator"/>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
-<fastViewBars/>
+<view id="org.eclipse.ui.console.ConsoleView:Console View #3"/>
+<fastViewBars>
+<fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@7fade6ef" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView:Console View #1" style="0">
+<fastViews>
+<view id="org.eclipse.ui.console.ConsoleView:Console View #1" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
 <layout>
 <mainWindow>
 <info folder="true" part="topLeft">
@@ -201,32 +229,187 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@7fade6ef" ratio="0.7496617" ratioLeft="554" ratioRight="185" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
+<folder appearance="2" expanded="0">
 <page content="org.eclipse.ui.console.ConsoleView:Console View #1" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@479edcb5" ratio="0.7489422" ratioLeft="531" ratioRight="178" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.console.ConsoleView:Console View #3" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView:Console View #3" label="Console"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
 </mainWindow>
+<hiddenWindow height="250" width="463" x="953" y="587">
+<view id="org.eclipse.ui.console.ConsoleView:Console View #2"/>
+</hiddenWindow>
 </layout>
 </perspective>
 </perspectives>
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetworkProgramming/src/chat/Chat.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetworkProgramming/src/chat/Receive.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetworkProgramming/src/chat/Send.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetworkProgramming/src/uploadPicture/UploadClient.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetworkProgramming/src/uploadPicture/UploadServer.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetworkProgramming/src/uploadPicture/UploadClient.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO_StreamDemo/src/Properties/ProperiesDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO_StreamDemo/src/Practice/PracticeDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO_StreamDemo/src/CopyOfPrintDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO_StreamDemo/src/PrintDemo.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GUI/src/GUI_Demo.java"/>
+<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=GUI/D:\/Program Files \(x86)\/eclipse\/jre\/lib\/rt.jar&lt;java.awt(Frame.class"/>
 </editors>
-<item historyLabel="Chat.java" index="0">
-<position info="not_deleted" x="444" y="0"/>
+<item historyLabel="UploadClient.java" index="0">
+<position info="not_deleted" x="693" y="0"/>
 </item>
-<item historyLabel="Receive.java" index="1">
+<item historyLabel="UploadClient.java" index="0">
+<position info="not_deleted" x="692" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="0">
+<position info="not_deleted" x="727" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="0">
+<position info="not_deleted" x="1010" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="0">
+<position info="not_deleted" x="870" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="0">
+<position info="not_deleted" x="894" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="0">
+<position info="not_deleted" x="935" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="0">
+<position info="not_deleted" x="788" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="972" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="398" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="0">
+<position info="not_deleted" x="788" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="398" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="955" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="559" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="562" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="665" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="283" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="687" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="708" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="769" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="762" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="761" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="795" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="970" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="0">
+<position info="not_deleted" x="691" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="714" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="2">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="Send.java" index="2">
-<position info="not_deleted" x="453" y="0"/>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="714" y="0"/>
 </item>
-<item active="true" historyLabel="Receive.java" index="1">
+<item historyLabel="UploadClient.java" index="2">
+<position info="not_deleted" x="804" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="235" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="2">
+<position info="not_deleted" x="804" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="204" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="2">
+<position info="not_deleted" x="470" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="204" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="2">
+<position info="not_deleted" x="645" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="204" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="2">
+<position info="not_deleted" x="645" y="0"/>
+</item>
+<item historyLabel="UploadServer.java" index="1">
+<position info="not_deleted" x="404" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="2">
+<position info="not_deleted" x="559" y="0"/>
+</item>
+<item historyLabel="ProperiesDemo.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="2">
+<position info="not_deleted" x="508" y="0"/>
+</item>
+<item historyLabel="PracticeDemo.java" index="4">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="UploadClient.java" index="2">
+<position info="not_deleted" x="508" y="0"/>
+</item>
+<item historyLabel="CopyOfPrintDemo.java" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="ProperiesDemo.java" index="3">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="PrintDemo.java" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="GUI_Demo.java" index="7">
+<position info="not_deleted" x="148" y="0"/>
+</item>
+<item historyLabel="Frame.class" index="8">
+<position info="not_deleted" x="13650" y="5"/>
+</item>
+<item historyLabel="GUI_Demo.java" index="7">
+<position info="not_deleted" x="148" y="0"/>
+</item>
+<item active="true" historyLabel="PrintDemo.java" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
@@ -235,6 +418,13 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="16384">
+<trimItem IMemento.internal.id="topLeft"/>
+</trimArea>
+<trimArea IMemento.internal.id="131072">
+<trimItem IMemento.internal.id="topRight"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
+</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 <trimItem IMemento.internal.id="org.eclipse.mylyn.tasks.ui.trim.container"/>
@@ -243,54 +433,57 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
+<trimItem IMemento.internal.id="bottomRight"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@7fade6ef"/>
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@479edcb5"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Send.java" tooltip="NetworkProgramming/src/chat/Send.java">
-<persistable path="/NetworkProgramming/src/chat/Send.java"/>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Frame.class" tooltip="java.awt.Frame">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=GUI/D:\/Program Files \(x86)\/eclipse\/jre\/lib\/rt.jar&lt;java.awt(Frame.class"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Receive.java" tooltip="NetworkProgramming/src/chat/Receive.java">
-<persistable path="/NetworkProgramming/src/chat/Receive.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Chat.java" tooltip="NetworkProgramming/src/chat/Chat.java">
-<persistable path="/NetworkProgramming/src/chat/Chat.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Chat.java" tooltip="NetworkProgramming/src/UDP/Chat.java">
-<persistable path="/NetworkProgramming/src/UDP/Chat.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ReceiveData.java" tooltip="NetworkProgramming/src/UDP/ReceiveData.java">
-<persistable path="/NetworkProgramming/src/UDP/ReceiveData.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SendData.java" tooltip="NetworkProgramming/src/UDP/SendData.java">
-<persistable path="/NetworkProgramming/src/UDP/SendData.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="DatagramPacket.class" tooltip="java.net.DatagramPacket">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=NetworkProgramming/D:\/Program Files \(x86)\/eclipse\/jre\/lib\/rt.jar&lt;java.net(DatagramPacket.class"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UDP_AgreementDemo.java" tooltip="NetworkProgramming/src/UDP/UDP_AgreementDemo.java">
-<persistable path="/NetworkProgramming/src/UDP/UDP_AgreementDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="NetworkProgrammingDemo.java" tooltip="NetworkProgramming/src/NetworkProgrammingDemo.java">
-<persistable path="/NetworkProgramming/src/NetworkProgrammingDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SequenceStreamDemo.java" tooltip="IO_StreamDemo/src/SequenceStreamDemo.java">
-<persistable path="/IO_StreamDemo/src/SequenceStreamDemo.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CopyOfPrintDemo.java" tooltip="IO_StreamDemo/src/CopyOfPrintDemo.java">
-<persistable path="/IO_StreamDemo/src/CopyOfPrintDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GUI_Demo.java" tooltip="GUI/src/GUI_Demo.java">
+<persistable path="/GUI/src/GUI_Demo.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintDemo.java" tooltip="IO_StreamDemo/src/PrintDemo.java">
 <persistable path="/IO_StreamDemo/src/PrintDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ArrayListDemo.java" tooltip="ContainerDemo/src/ArrayListDemo.java">
-<persistable path="/ContainerDemo/src/ArrayListDemo.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProperiesDemo.java" tooltip="IO_StreamDemo/src/Properties/ProperiesDemo.java">
+<persistable path="/IO_StreamDemo/src/Properties/ProperiesDemo.java"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="FileDemo1.java" tooltip="IO_StreamDemo/src/FileObject/FileDemo1.java">
-<persistable path="/IO_StreamDemo/src/FileObject/FileDemo1.java"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CopyOfPrintDemo.java" tooltip="IO_StreamDemo/src/CopyOfPrintDemo.java">
+<persistable path="/IO_StreamDemo/src/CopyOfPrintDemo.java"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PracticeDemo.java" tooltip="IO_StreamDemo/src/Practice/PracticeDemo.java">
 <persistable path="/IO_StreamDemo/src/Practice/PracticeDemo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UploadClient.java" tooltip="NetworkProgramming/src/uploadPicture/UploadClient.java">
+<persistable path="/NetworkProgramming/src/uploadPicture/UploadClient.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UploadServer.java" tooltip="NetworkProgramming/src/uploadPicture/UploadServer.java">
+<persistable path="/NetworkProgramming/src/uploadPicture/UploadServer.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Date.class" tooltip="java.util.Date">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=NetworkProgramming/D:\/Program Files \(x86)\/eclipse\/jre\/lib\/rt.jar&lt;java.util(Date.class"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UploadServer.java" tooltip="NetworkProgramming/src/uploadTextFile/UploadServer.java">
+<persistable path="/NetworkProgramming/src/uploadTextFile/UploadServer.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UploadClient.java" tooltip="NetworkProgramming/src/uploadTextFile/UploadClient.java">
+<persistable path="/NetworkProgramming/src/uploadTextFile/UploadClient.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TcpClient.java" tooltip="NetworkProgramming/src/TCP/TcpClient.java">
+<persistable path="/NetworkProgramming/src/TCP/TcpClient.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PracticeDemo2.java" tooltip="NetworkProgramming/src/TCP/PracticeDemo2.java">
+<persistable path="/NetworkProgramming/src/TCP/PracticeDemo2.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TcpServer.java" tooltip="NetworkProgramming/src/TCP/TcpServer.java">
+<persistable path="/NetworkProgramming/src/TCP/TcpServer.java"/>
+</file>
+<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Socket.class" tooltip="java.net.Socket">
+<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=API_StringDemo/D:\/Program Files \(x86)\/eclipse\/jre\/lib\/rt.jar&lt;java.net(Socket.class"/>
 </file>
 </mruList>
 </workbench>

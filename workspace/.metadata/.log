@@ -3313,3 +3313,75 @@ java.lang.IllegalArgumentException: Argument not valid
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:622)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:577)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
+!SESSION 2017-08-07 19:43:57.914 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.debug.core 4 125 2017-08-07 21:26:51.672
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: 管道正在被关闭。
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:345)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:124)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$1.run(InputStreamMonitor.java:99)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.debug.core 4 125 2017-08-07 21:26:52.503
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: 管道正在被关闭。
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:345)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:124)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$1.run(InputStreamMonitor.java:99)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.debug.core 4 125 2017-08-07 21:26:54.120
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: 管道正在被关闭。
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:345)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:124)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$1.run(InputStreamMonitor.java:99)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.debug.core 4 125 2017-08-07 21:26:54.302
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: 管道正在被关闭。
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:345)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:124)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$1.run(InputStreamMonitor.java:99)
+	at java.lang.Thread.run(Thread.java:745)
+
+!ENTRY org.eclipse.debug.core 4 125 2017-08-07 21:26:54.739
+!MESSAGE Error logged from Debug Core: 
+!STACK 0
+java.io.IOException: 管道正在被关闭。
+	at java.io.FileOutputStream.writeBytes(Native Method)
+	at java.io.FileOutputStream.write(FileOutputStream.java:345)
+	at java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:82)
+	at java.io.BufferedOutputStream.flush(BufferedOutputStream.java:140)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.writeNext(InputStreamMonitor.java:147)
+	at org.eclipse.debug.internal.core.InputStreamMonitor.write(InputStreamMonitor.java:124)
+	at org.eclipse.debug.internal.core.InputStreamMonitor$1.run(InputStreamMonitor.java:99)
+	at java.lang.Thread.run(Thread.java:745)

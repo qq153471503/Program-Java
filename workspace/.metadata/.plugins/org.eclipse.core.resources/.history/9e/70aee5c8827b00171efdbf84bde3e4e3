@@ -1,0 +1,12 @@
+package uploadPicture;
+
+public class UploadClient {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

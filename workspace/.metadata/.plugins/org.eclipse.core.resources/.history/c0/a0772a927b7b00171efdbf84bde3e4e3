@@ -1,0 +1,43 @@
+package uploadTextFile;
+
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class UploadServer {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+
+		ServerSocket ss = new ServerSocket(10005);
+		
+		Socket soc = ss.accept();
+		
+		BufferedReader bufIn = new BufferedReader(new InputStreamReader(soc.getInputStream()));
+		
+		BufferedWriter bufw = new BufferedWriter(new FileWriter("server.txt"));
+		
+		String line=null;
+		
+		while((line=bufIn.readLine()) != null){
+			bufw.write(line);
+			bufw.flush();
+		}
+		
+		PrintWriter out = new PrintWriter(soc.getOutputStream(),true);
+		out.println("上传成功!");
+		
+		bufw.close();
+		ss.close();
+		soc.close();
+	}
+
+}

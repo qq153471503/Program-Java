@@ -1,0 +1,9 @@
+package TCP;
+
+public class TcpClient implements Runnable {
+
+	@Override
+	public void run() {
+	}
+
+}

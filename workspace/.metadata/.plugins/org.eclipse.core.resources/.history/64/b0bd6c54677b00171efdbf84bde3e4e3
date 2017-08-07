@@ -1,0 +1,37 @@
+package TCP;
+
+import java.io.IOException;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+
+/**
+ * 【TCP】：演示demo
+ * 
+ * @author KunGe
+ *
+ */
+public class TCP_Demo {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 * @throws UnknownHostException 
+	 */
+	public static void main(String[] args) throws UnknownHostException, IOException {
+
+		//创建客户端套接字，并且明确要连接的主机
+		Socket soc = new Socket("127.0.0.1", 10000);
+		
+		OutputStream out = soc.getOutputStream();
+		
+		out.write("tcp...demo ...".getBytes());
+		
+		
+//		soc.close();   //不能关闭，关闭就是断开
+	}
+
+}
+
+

@@ -1,0 +1,39 @@
+package TCP;
+
+import java.io.File;
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.net.UnknownHostException;
+
+/**
+ * 【练习题】：客户端由控制台读取字母数据，服务端收到后显示在控制台，并将数据转换为大写，存储在硬盘上
+ * 知道客户端输入over结束。
+ * @author KunGe
+ *
+ */
+public class PriacticeDemo {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 * @throws UnknownHostException 
+	 * @throws InterruptedException 
+	 */
+	public static void main(String[] args) throws UnknownHostException, IOException, InterruptedException {
+
+		File file = new File("G:\\DATA.TXT");
+		
+		TcpClient client = new TcpClient(new Socket("127.0.0.1", 10003));
+		
+		TcpServer server = new TcpServer(new ServerSocket(10003), file);
+		
+		
+		Thread cl = new Thread(client);
+		Thread ser = new Thread(server);
+		ser.start();
+		cl.sleep(500);
+		cl.start();
+	}
+
+}
