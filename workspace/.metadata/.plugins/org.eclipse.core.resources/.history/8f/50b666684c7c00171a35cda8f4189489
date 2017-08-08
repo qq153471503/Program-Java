@@ -1,0 +1,39 @@
+package url_demo;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
+
+public class URL_Demo {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+
+		// ?name=list 表示参数信息
+		String str_url = "http://127.0.0.1:8080/myweb/hello.html?name=list";
+		URL url = new URL(str_url);
+		System.out.println(":"+url.getProtocol());
+		System.out.println(":"+url.getHost());
+		System.out.println(":"+url.getPort());
+		System.out.println(":"+url.getPath());
+		System.out.println(":"+url.getFile());		//如果没有name=list  该信息与getPath一样
+		System.out.println(":"+url.getQuery());		//表示参数信息
+		
+		InputStream rece = url.openStream();
+		
+		byte[] buf = new byte[1024];
+		
+		int len = rece.read(buf);
+		
+		String text = new String(buf,0,len);
+		
+		System.out.println(text);
+		
+		
+	}
+
+}

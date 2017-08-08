@@ -1,0 +1,12 @@
+package tomact_demo;
+
+public class MyBrowser {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

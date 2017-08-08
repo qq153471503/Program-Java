@@ -1,0 +1,12 @@
+package url_demo;
+
+public class URL_Demo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

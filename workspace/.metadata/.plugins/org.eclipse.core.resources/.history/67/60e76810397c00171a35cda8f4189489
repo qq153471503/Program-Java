@@ -1,0 +1,51 @@
+package tomact_demo;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+/**
+ * 【了解tomact原理，自己写一个模拟的服务器】
+ * @author KunGe
+ *
+ */
+public class SimulationTomact {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 */
+	public static void main(String[] args) throws IOException {
+
+		//创建服务
+		ServerSocket ss = new ServerSocket(9090);
+		
+		//拿到客户端套接字
+		Socket soc = ss.accept();
+		
+		//获取发来的数据
+		InputStream in = soc.getInputStream();
+		
+		byte[] buf = new byte[1024];
+		
+		int len = 0;
+		
+		len=in.read(buf);
+		String text = new String(buf, 0,len);
+		
+		System.out.println(text);
+		
+		//给客户端一个返回信息
+		PrintWriter pw = new PrintWriter(soc.getOutputStream());
+		pw.println("欢迎访问！我是返回信息！");
+		
+		soc.close();
+		ss.close();
+		
+		
+	}
+
+}
+

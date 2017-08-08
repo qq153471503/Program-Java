@@ -1,0 +1,12 @@
+package tomact_demo;
+
+public class SimulationTomact {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}

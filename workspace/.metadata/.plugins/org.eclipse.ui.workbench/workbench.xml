@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="58" version="2.0">
+<workbench progressCount="52" version="2.0">
 <workbenchAdvisor/>
-<window height="826" width="974" x="494" y="90">
+<window height="1047" width="974" x="953" y="0">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -35,44 +35,26 @@
 <part id="0"/>
 <part id="1"/>
 <part id="2"/>
-<part id="3"/>
-<part id="4"/>
-<part id="5"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UploadServer.java" partName="UploadServer.java" path="H:/Program-Java/workspace/NetworkProgramming/src/uploadPicture/UploadServer.java" title="UploadServer.java" tooltip="NetworkProgramming/src/uploadPicture/UploadServer.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetworkProgramming/src/uploadPicture/UploadServer.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="404" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimulationTomact.java" partName="SimulationTomact.java" path="H:/Program-Java/workspace/NetworkProgramming/src/tomact_demo/SimulationTomact.java" title="SimulationTomact.java" tooltip="NetworkProgramming/src/tomact_demo/SimulationTomact.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetworkProgramming/src/tomact_demo/SimulationTomact.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1211" selectionTopPixel="565"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="UploadClient.java" partName="UploadClient.java" path="H:/Program-Java/workspace/NetworkProgramming/src/uploadPicture/UploadClient.java" title="UploadClient.java" tooltip="NetworkProgramming/src/uploadPicture/UploadClient.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetworkProgramming/src/uploadPicture/UploadClient.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="508" selectionTopPixel="0"/>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyBrowser.java" partName="MyBrowser.java" path="H:/Program-Java/workspace/NetworkProgramming/src/tomact_demo/MyBrowser.java" title="MyBrowser.java" tooltip="NetworkProgramming/src/tomact_demo/MyBrowser.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetworkProgramming/src/tomact_demo/MyBrowser.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="796" selectionTopPixel="349"/>
 </editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CopyOfPrintDemo.java" partName="CopyOfPrintDemo.java" path="H:/Program-Java/workspace/IO_StreamDemo/src/CopyOfPrintDemo.java" title="CopyOfPrintDemo.java" tooltip="IO_StreamDemo/src/CopyOfPrintDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO_StreamDemo/src/CopyOfPrintDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ProperiesDemo.java" partName="ProperiesDemo.java" path="H:/Program-Java/workspace/IO_StreamDemo/src/Properties/ProperiesDemo.java" title="ProperiesDemo.java" tooltip="IO_StreamDemo/src/Properties/ProperiesDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO_StreamDemo/src/Properties/ProperiesDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="270"/>
-</editor>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PrintDemo.java" partName="PrintDemo.java" path="H:/Program-Java/workspace/IO_StreamDemo/src/PrintDemo.java" title="PrintDemo.java" tooltip="IO_StreamDemo/src/PrintDemo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/IO_StreamDemo/src/PrintDemo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="520" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="GUI_Demo.java" partName="GUI_Demo.java" path="H:/Program-Java/workspace/GUI/src/GUI_Demo.java" title="GUI_Demo.java" tooltip="GUI/src/GUI_Demo.java" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/GUI/src/GUI_Demo.java"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="148" selectionTopPixel="0"/>
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="URL_Demo.java" partName="URL_Demo.java" path="H:/Program-Java/workspace/NetworkProgramming/src/url_demo/URL_Demo.java" title="URL_Demo.java" tooltip="NetworkProgramming/src/url_demo/URL_Demo.java" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/NetworkProgramming/src/url_demo/URL_Demo.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="405" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
 <view id="org.eclipse.ui.navigator.ProjectExplorer" partName="Project Explorer">
 <viewState CommonNavigator.LINKING_ENABLED="0" org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets="0"/>
-</view>
-<view id="org.eclipse.ui.console.ConsoleView:Console View #3" partName="Console">
-<viewState/>
 </view>
 <view id="org.eclipse.ui.views.AllMarkersView" partName="Markers">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.allSeverityField" categoryGroup="org.eclipse.ui.ide.type" markerContentGenerator="org.eclipse.ui.ide.allMarkersGenerator" partName="Markers">
@@ -84,12 +66,28 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
 </view>
-<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
-<view id="org.eclipse.ui.views.PropertySheet" partName="Properties"/>
+<view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets">
+<viewState>
+<entry expansion="false" extent="20" maximum="100" minimum="0" pinned="false" value="0">
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+<entry selection="0"/>
+</entry>
+</viewState>
+</view>
+<view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.console.ConsoleView:Console View #1" partName="Console">
 <viewState/>
 </view>
-<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer"/>
+<view id="org.eclipse.datatools.connectivity.DataSourceExplorerNavigator" partName="Data Source Explorer">
+<viewState CommonNavigator.LINKING_ENABLED="0" showCategories="true"/>
+</view>
 <view id="org.eclipse.ui.console.ConsoleView" partName="Console">
 <viewState/>
 </view>
@@ -97,7 +95,9 @@
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
-<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers"/>
+<view id="org.eclipse.wst.server.ui.ServersView" partName="Servers">
+<viewState CommonNavigator.LINKING_ENABLED="0"/>
+</view>
 </views>
 <perspectives activePart="org.eclipse.jdt.ui.CompilationUnitEditor" activePerspective="org.eclipse.jst.j2ee.J2EEPerspective">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
@@ -165,7 +165,6 @@
 <view id="org.eclipse.ui.navigator.ProjectExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
 <view id="org.eclipse.mylyn.tasks.ui.views.tasks"/>
-<view id="org.eclipse.ui.console.ConsoleView:Console View #3"/>
 <fastViewBars>
 <fastViewBar fastViewLocation="1024" id="org.eclipse.ui.internal.ViewStack@7fade6ef" orientation="256" selectedTabId="org.eclipse.ui.console.ConsoleView:Console View #1" style="0">
 <fastViews>
@@ -229,17 +228,15 @@
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@7fade6ef" ratio="0.7496617" ratioLeft="554" ratioRight="185" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="0">
+<folder appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView:Console View #1" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@479edcb5" ratio="0.7489422" ratioLeft="531" ratioRight="178" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView:Console View #3" appearance="2" expanded="2">
-<page content="org.eclipse.ui.console.ConsoleView:Console View #3" label="Console"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<folder appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView:Console View #3" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 </mainWindow>
@@ -252,165 +249,159 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetworkProgramming/src/uploadPicture/UploadClient.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetworkProgramming/src/uploadPicture/UploadServer.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetworkProgramming/src/uploadPicture/UploadClient.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO_StreamDemo/src/Properties/ProperiesDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO_StreamDemo/src/Practice/PracticeDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO_StreamDemo/src/CopyOfPrintDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/IO_StreamDemo/src/PrintDemo.java"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/GUI/src/GUI_Demo.java"/>
-<editor factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" org.eclipse.jdt.ui.ClassFileIdentifier="=GUI/D:\/Program Files \(x86)\/eclipse\/jre\/lib\/rt.jar&lt;java.awt(Frame.class"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetworkProgramming/src/tomact_demo/SimulationTomact.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetworkProgramming/src/tomact_demo/MyBrowser.java"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" path="/NetworkProgramming/src/url_demo/URL_Demo.java"/>
 </editors>
-<item historyLabel="UploadClient.java" index="0">
-<position info="not_deleted" x="693" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position/>
 </item>
-<item historyLabel="UploadClient.java" index="0">
-<position info="not_deleted" x="692" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position/>
 </item>
-<item historyLabel="UploadClient.java" index="0">
-<position info="not_deleted" x="727" y="0"/>
+<item historyLabel="SimulationTomact.java" index="0">
+<position info="not_deleted" x="349" y="14"/>
 </item>
-<item historyLabel="UploadClient.java" index="0">
-<position info="not_deleted" x="1010" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="656" y="21"/>
 </item>
-<item historyLabel="UploadClient.java" index="0">
-<position info="not_deleted" x="870" y="0"/>
+<item historyLabel="SimulationTomact.java" index="0">
+<position info="not_deleted" x="423" y="52"/>
 </item>
-<item historyLabel="UploadClient.java" index="0">
-<position info="not_deleted" x="894" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="1088" y="0"/>
 </item>
-<item historyLabel="UploadClient.java" index="0">
-<position info="not_deleted" x="935" y="0"/>
+<item historyLabel="SimulationTomact.java" index="0">
+<position info="not_deleted" x="423" y="52"/>
 </item>
-<item historyLabel="UploadClient.java" index="0">
-<position info="not_deleted" x="788" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="1004" y="0"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="972" y="0"/>
+<item historyLabel="SimulationTomact.java" index="0">
+<position info="not_deleted" x="494" y="22"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="398" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="1047" y="0"/>
 </item>
-<item historyLabel="UploadClient.java" index="0">
-<position info="not_deleted" x="788" y="0"/>
+<item historyLabel="SimulationTomact.java" index="0">
+<position info="not_deleted" x="518" y="11"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="398" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="955" y="0"/>
+<item historyLabel="SimulationTomact.java" index="0">
+<position info="not_deleted" x="693" y="20"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="559" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="1088" y="0"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="562" y="0"/>
+<item historyLabel="SimulationTomact.java" index="0">
+<position info="not_deleted" x="715" y="22"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="665" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="1088" y="0"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="283" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="597" y="0"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="687" y="0"/>
+<item historyLabel="SimulationTomact.java" index="0">
+<position info="not_deleted" x="780" y="0"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="708" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="1129" y="0"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="769" y="0"/>
+<item historyLabel="SimulationTomact.java" index="0">
+<position info="not_deleted" x="754" y="0"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="762" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="761" y="0"/>
+<item historyLabel="SimulationTomact.java" index="0">
+<position info="not_deleted" x="754" y="0"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="795" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="1036" y="0"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="970" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="1332" y="0"/>
 </item>
-<item historyLabel="UploadClient.java" index="0">
-<position info="not_deleted" x="691" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="1401" y="0"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="714" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="1082" y="0"/>
 </item>
-<item historyLabel="UploadClient.java" index="2">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="SimulationTomact.java" index="0">
+<position info="not_deleted" x="754" y="0"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="714" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="1459" y="0"/>
 </item>
-<item historyLabel="UploadClient.java" index="2">
-<position info="not_deleted" x="804" y="0"/>
+<item historyLabel="SimulationTomact.java" index="0">
+<position info="not_deleted" x="1211" y="0"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="235" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="840" y="0"/>
 </item>
-<item historyLabel="UploadClient.java" index="2">
-<position info="not_deleted" x="804" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position info="not_deleted" x="1494" y="0"/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="204" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="UploadClient.java" index="2">
-<position info="not_deleted" x="470" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="204" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="UploadClient.java" index="2">
-<position info="not_deleted" x="645" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="204" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="UploadClient.java" index="2">
-<position info="not_deleted" x="645" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="UploadServer.java" index="1">
-<position info="not_deleted" x="404" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="UploadClient.java" index="2">
-<position info="not_deleted" x="559" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="ProperiesDemo.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="UploadClient.java" index="2">
-<position info="not_deleted" x="508" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="PracticeDemo.java" index="4">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="UploadClient.java" index="2">
-<position info="not_deleted" x="508" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position info="not_deleted" x="307" y="0"/>
 </item>
-<item historyLabel="CopyOfPrintDemo.java" index="5">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="ProperiesDemo.java" index="3">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="PrintDemo.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="840" y="0"/>
 </item>
-<item historyLabel="GUI_Demo.java" index="7">
-<position info="not_deleted" x="148" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
-<item historyLabel="Frame.class" index="8">
-<position info="not_deleted" x="13650" y="5"/>
+<item historyLabel="MyBrowser.java" index="1">
+<position info="not_deleted" x="796" y="0"/>
 </item>
-<item historyLabel="GUI_Demo.java" index="7">
-<position info="not_deleted" x="148" y="0"/>
+<item historyLabel="URL_Demo.java" index="2">
+<position info="not_deleted" x="402" y="0"/>
 </item>
-<item active="true" historyLabel="PrintDemo.java" index="6">
-<position info="not_deleted" x="0" y="0"/>
+<item active="true" historyLabel="URL_Demo.java" index="2">
+<position/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -423,7 +414,6 @@
 </trimArea>
 <trimArea IMemento.internal.id="131072">
 <trimItem IMemento.internal.id="topRight"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.editorss"/>
 </trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
@@ -433,13 +423,21 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="bottomRight"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@7fade6ef"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@479edcb5"/>
+<trimItem IMemento.internal.id="bottomRight"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="URL_Demo.java" tooltip="NetworkProgramming/src/url_demo/URL_Demo.java">
+<persistable path="/NetworkProgramming/src/url_demo/URL_Demo.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="MyBrowser.java" tooltip="NetworkProgramming/src/tomact_demo/MyBrowser.java">
+<persistable path="/NetworkProgramming/src/tomact_demo/MyBrowser.java"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="SimulationTomact.java" tooltip="NetworkProgramming/src/tomact_demo/SimulationTomact.java">
+<persistable path="/NetworkProgramming/src/tomact_demo/SimulationTomact.java"/>
+</file>
 <file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Frame.class" tooltip="java.awt.Frame">
 <persistable org.eclipse.jdt.ui.ClassFileIdentifier="=GUI/D:\/Program Files \(x86)\/eclipse\/jre\/lib\/rt.jar&lt;java.awt(Frame.class"/>
 </file>
@@ -475,15 +473,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TcpClient.java" tooltip="NetworkProgramming/src/TCP/TcpClient.java">
 <persistable path="/NetworkProgramming/src/TCP/TcpClient.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PracticeDemo2.java" tooltip="NetworkProgramming/src/TCP/PracticeDemo2.java">
-<persistable path="/NetworkProgramming/src/TCP/PracticeDemo2.java"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="TcpServer.java" tooltip="NetworkProgramming/src/TCP/TcpServer.java">
-<persistable path="/NetworkProgramming/src/TCP/TcpServer.java"/>
-</file>
-<file factoryID="org.eclipse.jdt.ui.ClassFileEditorInputFactory" id="org.eclipse.jdt.ui.ClassFileEditor" name="Socket.class" tooltip="java.net.Socket">
-<persistable org.eclipse.jdt.ui.ClassFileIdentifier="=API_StringDemo/D:\/Program Files \(x86)\/eclipse\/jre\/lib\/rt.jar&lt;java.net(Socket.class"/>
 </file>
 </mruList>
 </workbench>
