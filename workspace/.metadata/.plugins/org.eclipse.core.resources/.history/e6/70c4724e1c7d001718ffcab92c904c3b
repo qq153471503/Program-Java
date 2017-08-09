@@ -1,0 +1,22 @@
+package practice;
+
+/**
+ * 【练习题】：电脑运行。
+ * @author KunGe
+ *
+ */
+public class PracticeDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+		MainBoard mb = new MainBoard();
+		mb.run();
+		
+		//后期想加入功能扩展 例如加入听音乐 看电影
+		mb.usePCI(null);
+	}
+
+}

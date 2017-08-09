@@ -1,0 +1,108 @@
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+
+import demo.Persion;
+
+/**
+ * 
+ * @author KunGe
+ *
+ *
+ *	java反射机制是在运行状态中，对于任意一个类（class文件），都能够知道这个类的所有属性和方法；
+ *	对于任意一个对象，都能够调用它的任意一个方法和属性
+ *	这种动态获取的信息以及动态调用对象的方法的功能称为JAVA语言的反射机制。
+ *
+ *
+ *
+ *要想对字节码文件解剖，必须有字节码文件对象
+ *获取字节码文件对象的方式有三：
+ *1、Object中的getClass方法,想要用这种方式，必须要明确具体的类并且明确对象，麻烦
+ *2、类名.class 相对1简单，还是需要类中的静态成员(.class就是静态成员)，不够扩展
+ *3、只要通过给定的类的字符串，就可以 ，使用Class类
+ */
+public class ReflectDemo {
+
+	/**
+	 * @param args
+	 * @throws ClassNotFoundException 
+	 * @throws IllegalAccessException 
+	 * @throws InstantiationException 
+	 */
+	public static void main(String[] args) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+
+//		方式1
+//		theWay_1();
+		
+//		方式二  
+//		theWay_2();
+		
+//		方式三
+//		theWay_3();
+		
+//		demo_1();
+		demo_2();
+		
+	}
+
+	private static void demo_2() throws InstantiationException, IllegalAccessException, ClassNotFoundException, NoSuchMethodException, SecurityException, IllegalArgumentException, InvocationTargetException {
+//		早期方式：
+//		Persion p = new Persion("xiaoming",30);
+		
+		
+//		现在方式：  更强的扩展性
+		String name = "demo.Persion";
+		
+//		找寻名称类文件，加载进内存，并产生class对象
+		Class clazz = Class.forName(name);
+		
+		/**
+		 * 	产生该类对象,该类构造函数具有参数，开发者指定了带参数的构造函数
+		 */
+		Constructor cons = clazz.getConstructor(String.class, int.class);	//获得该类的构造函数
+		Object obj = cons.newInstance("xiaoqing..",32);
+		
+		
+	}
+
+//	获取Class中的构造函数
+	private static void demo_1() throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+		
+//		早期方式：
+//		Persion p = new Persion();
+		
+		
+//		现在方式：  更强的扩展性
+		String name = "demo.Persion";
+		
+//		找寻名称类文件，加载进内存，并产生class对象
+		Class clazz = Class.forName(name);
+		
+		//产生该类对象   构造函数无参数
+		Object obj = clazz.newInstance();
+		
+		
+	}
+
+	private static void theWay_3() throws ClassNotFoundException {
+		Class c1 = Class.forName("demo.Persion");		//必须带包名
+		Class c2 = Class.forName("demo.Persion");
+		System.out.println(c1==c2);
+	}
+
+	private static void theWay_2() {
+		Class c = Persion.class;
+		Class c2 = Persion.class;
+		System.out.println(c==c2);
+	}
+
+	private static void theWay_1() {
+		Persion p = new Persion();
+		Class c1 = p.getClass();
+		
+		Persion p1 = new Persion();
+		Class c2 = p1.getClass();
+		
+		System.out.println(c1==c2);
+	}
+
+}

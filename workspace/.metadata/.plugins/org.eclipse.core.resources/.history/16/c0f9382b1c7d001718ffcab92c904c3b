@@ -1,0 +1,13 @@
+package practice;
+
+public class SoundCard implements PCI {
+
+	@Override
+	public void open() {
+	}
+
+	@Override
+	public void close() {
+	}
+
+}

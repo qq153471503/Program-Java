@@ -1,0 +1,49 @@
+import demo.Persion;
+
+/**
+ * 
+ * @author KunGe
+ *
+ *
+ *	java反射机制是在运行状态中，对于任意一个类（class文件），都能够知道这个类的所有属性和方法；
+ *	对于任意一个对象，都能够调用它的任意一个方法和属性
+ *	这种动态获取的信息以及动态调用对象的方法的功能称为JAVA语言的反射机制。
+ *
+ *
+ *
+ *要想对字节码文件解剖，必须有字节码文件对象
+ *获取字节码文件对象的方式有三：
+ *1、Object中的getClass方法,想要用这种方式，必须要明确具体的类并且明确对象，麻烦
+ *2、类名.class
+ */
+public class ReflectDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+//		方式1
+//		theWay_1();
+//		方式二
+		theWay_2();
+		
+	}
+
+	private static void theWay_2() {
+		Class c = Persion.class;
+		Class c2 = Persion.class;
+		System.out.println(c==c2);
+	}
+
+	private static void theWay_1() {
+		Persion p = new Persion();
+		Class c1 = p.getClass();
+		
+		Persion p1 = new Persion();
+		Class c2 = p1.getClass();
+		
+		System.out.println(c1==c2);
+	}
+
+}

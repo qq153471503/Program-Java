@@ -1,0 +1,64 @@
+package practice;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.util.Properties;
+
+/**
+ * 【练习题】：电脑运行。
+ * @author KunGe
+ *
+ */
+public class PracticeDemo {
+
+	/**
+	 * @param args
+	 * @throws IOException 
+	 * @throws ClassNotFoundException 
+	 * @throws IllegalAccessException 
+	 * @throws InstantiationException 
+	 */
+	public static void main(String[] args) throws IOException, ClassNotFoundException, InstantiationException, IllegalAccessException {
+
+		MainBoard mb = new MainBoard();
+		mb.run();
+		
+		//后期想加入功能扩展 例如加入听音乐 看电影  
+		mb.usePCI(null);
+		
+		//每次添加新设备都需要修改代码 传递一个新创建的对象
+//		mb.usePCI(new SoundCard());
+		
+		/**
+		 * 可否不改代码，就可以完成此项功能？
+		 * 
+		 * 不用new完成，直接获取其class文件，在内部实现创建对象的动作
+		 */
+		
+		//将声卡这个类放到配置文件中，主板运行后，直接读取配置文件，加载类运行
+		File cofg = new File("pci.properties");
+		
+		Properties prop = new Properties();	//创建属性类
+		FileInputStream fis = new FileInputStream(cofg);	//输入流关联上文件
+		
+		prop.load(fis);	//用属性类加载文件内容到内存
+		
+		for (int i = 0; i < prop.size(); i++) {
+			//根据键，获得值(值：类的名字)
+			String picName = prop.getProperty("pci"+(i+1));
+			
+			//用Class类加载类
+			Class clazz = Class.forName(picName);
+			
+			//实例化对象
+			PCI p = (PCI) clazz.newInstance();
+			mb.usePCI(p);
+		}
+		
+		fis.close();
+		
+	}
+
+}

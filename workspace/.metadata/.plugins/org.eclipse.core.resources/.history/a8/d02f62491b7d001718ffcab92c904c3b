@@ -1,0 +1,17 @@
+package practice;
+
+/**
+ * 【练习题】：电脑运行。
+ * @author KunGe
+ *
+ */
+public class PracticeDemo {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+
+	}
+
+}
